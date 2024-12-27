@@ -1,22 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    @include('header')
-
-</head>
-
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boot starp link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>FASTRIDE</title>
+  </head>
+  <body>
     <div>
-        <!-- Nav Menu section -->
-       @include('navmenu')
+      <!-- Nav Menu section -->
+      <section class="bg-white col-12 position-fixed z-3">
+        <nav class="navbar navbar-expand-lg bg-white container-fluid">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="./assets/images/LOGO.png"
+                class="navbarimg"
+                alt=""
+                srcset=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item m-auto">
+                  <a
+                    class="nav-link navbarfontColorSize"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item m-auto">
+                  <a class="nav-link navbarfontColorSize" href="#"
+                    >Who We Are</a
+                  >
+                </li>
+                <li class="nav-item m-auto">
+                  <a class="nav-link navbarfontColorSize" href="#">Services</a>
+                </li>
+                <li class="nav-item m-auto">
+                  <a class="nav-link navbarfontColorSize" href="#">DG Cargo</a>
+                </li>
+                <li class="nav-item m-auto">
+                  <a class="nav-link navbarfontColorSize" href="#">Find Us</a>
+                </li>
+                <li class="nav-item whatsappColor m-3">
+                  <a class="navbar-brand text-white" href="#"
+                    ><i class="bi bi-whatsapp whatsappColorfontsize"></i
+                  ></a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Dropdown link
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </li>
+                      </ul>
+                    </li> -->
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
 
-        <!-- Gateway -->
-        <section>
+      <!-- Gateway -->
+      <section>
         <div class="pt-5 position-relative">
           <div>
             <img
-              src="{{asset('assets/images/Banner 1920 x 800.jpg')}}"
+              src="./assets/images/Banner 1920 x 800.jpg"
               width="100%"
               alt=""
               srcset=""
@@ -33,7 +118,8 @@
                 </div>
                 <div>
                   <p class="gatway-pargraph">
-                  Connecting the Middle East to global markets with precision and care. Fastride delivers excellence in every shipment.
+                    Aliquam tincidunt turpis et ex fringilla, vitae eleifend
+                    tortor varius. Sed blandit tellus at ipsum elementum rhoncus
                   </p>
                 </div>
               </div>
@@ -49,7 +135,7 @@
             <div class="col-md-6 col-12 cols">
               <div>
                 <img
-                  src="{{asset('assets/images/IMG 910 x 1285.png')}}"
+                  src="./assets/images/IMG 910 x 1285.png"
                   width="100%"
                   alt=""
                   srcset=""
@@ -101,7 +187,7 @@
       <section class="position-relative Our-Key-Destinations">
         <div class="Our-Key-Destinations-bg-img">
           <img
-            src="{{asset('assets/images/IMG 1920 x 1280.jpg')}}"
+            src="./assets/images/IMG 1920 x 1280.jpg"
             width="100%"
             alt=""
             srcset=""
@@ -180,7 +266,7 @@
                         class="videosdiv"
                       >
                         <source
-                          src="{{asset('assets/images/videoplayback.mp4')}}"
+                          src="./assets/images/videoplayback.mp4"
                           type="video/mp4"
                         />
                         <source src="movie.webm" type="video/webm" />
@@ -252,7 +338,7 @@
                         placeholder="Give Your Feedback"
                       />
                       <img
-                        src="{{asset('assets/images/google-icon-1.png')}}"
+                        src="./assets/images/google-icon-1.png"
                         alt=""
                         class="google-icon"
                         style="width: 20px; height: 20px"
@@ -291,7 +377,7 @@
                 <div class="row border border-2 rounded-5">
                   <div class="col-6 p-0">
                     <img
-                      src="{{asset('assets/images/IMG 447 x 447.jpg')}}"
+                      src="./assets/images/IMG 447 x 447.jpg"
                       alt=""
                       srcset=""
                       width="100%"
@@ -315,7 +401,7 @@
                 <div class="row border border-2 rounded-5">
                   <div class="col-6 p-0">
                     <img
-                      src="{{asset('assets/images/IMG 447 x 447 _ 2.jpg')}}"
+                      src="./assets/images/IMG 447 x 447 _ 2.jpg"
                       alt=""
                       srcset=""
                       width="100%"
@@ -346,7 +432,7 @@
           <div class="row">
             <div class="col-12 pt-3 pb-3 project-heading">
               <div>
-                <h1 class="text-center">Connecting Continents, Creating Opportunities</h1>
+                <h1 class="text-center">Projects We’ve Completed</h1>
                 <!-- <h1 class="text-center">Our story</h1> -->
               </div>
             </div>
@@ -354,11 +440,15 @@
               <div class="col-md-5 col-12 cols">
                 <div>
                   <div>
-                    <h1></h1>
+                    <h1>Lorem ipsum</h1>
                   </div>
                   <div>
                     <p class="projects-paragraphalignment">
-                    Our global logistics solutions go beyond delivering products - they're about enabling progress. By combining expertise with technology, we provide tailored freight solutions that keep your world moving. Our dedicated approach to every shipment, from air and ground to specialized deliveries, ensures we meet your needs with care and precision. Together, we ensure your business keeps running smoothly. Here's a glimpse of the impact we've made:
+                      Sed mauris lectus, tempor quis purus ultricies, aliquam
+                      maximus sapien. Sed cursus, nibh ut volutpat auctor, urna
+                      metus aliquet tellus, vel imperdiet ante augue efficitur
+                      sem. Suspendisse potenti. Etiam ac sapien ac nisl tempor
+                      feugiat ut non sem turpis convallis mattis in ac velit.
                     </p>
                   </div>
                 </div>
@@ -478,7 +568,8 @@
                 </div>
                 <div>
                   <p class="track-your-shippment-pargraph">
-                  Monitor the status of your shipment in real time. Simply enter your tracking number, and stay updated on your cargo’s journey - no matter where it is.
+                    Nulla tempus ultrices felis ut tristique. Pellentesque ut
+                    ultrices ante.
                   </p>
                 </div>
               </div>
@@ -491,7 +582,7 @@
                   class="d-flex d-flex justify-content-center align-items-center"
                 >
                   <div class="col-10 d-flex orderfontaws pb-3">
-                    <div class="me-2">Order ID</div>
+                    <div class="me-2">OrdID</div>
                     <div class="ms-5">AWD</div>
                   </div>
                 </div>
@@ -524,11 +615,139 @@
       </section>
 
       <!-- footer section -->
-@include('footer')
 
+      <footer class="footer-section">
+        <div class="container row">
+          <div class="col-md-6 col-12">
+            <div>
+              <div class="logo-image">
+                <a href="#top-section">
+                  <img
+                    src="./assets/images/LOGO.png"
+                    alt=""
+                    class="navbarimg"
+                    srcset=""
+                  />
+                </a>
+              </div>
+              <div>
+                <p class="footerparagraphwidth">
+                  Praesent viverra euismod libero ac consectetur. Vivamus cursus
+                  eu turpis sit amet sagittis. Maecenas interdum tempus nisi
+                  quis consectetur.
+                </p>
+              </div>
+              <!-- <div class="icons-colors ">
+                <a
+                  href="https://www.facebook.com/photo/?fbid=122110908794423546&set=a.122100275210423546"
+                  target="_blank"
+                >
+                  <i class="bi bi-facebook"></i>
+                </a>
+                <a
+                  href="https://www.instagram.com/p/C_U0PhOyxR0/."
+                  target="_blank"
+                  ><i class="bi bi-instagram"></i
+                ></a> -->
+              <!-- <i class="bi bi-twitter-x"></i> -->
+              <!-- <a
+                  href="https://www.linkedin.com/company/exim-clearing-and-forwarding-l-l-c-dubai/?viewAsMember=true"
+                  target="_blank"
+                >
+                  <i class="bi bi-linkedin"></i>
+                </a> -->
+              <!-- <i class="bi bi-twitter"></i> -->
+              <!-- </div>-->
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="center-align">
+              <!-- <div class="get-in-touch">
+                <h1>Get In Touch</h1>
+              </div> -->
+              <div>
+                <ul>
+                  <li>
+                    <div>
+                      <a href="./Pages/findus.html">
+                        <i class="bi bi-geo-alt-fill"></i>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="./Pages/findus.html">
+                        Pellentesque nec aliquet nulla. Vivamus nunc quam,
+                        <br />
+                        efficitur vitae ornare id, convallis vitae dolor
+                      </a>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <a href="tel:+971 4282 3411">
+                        <i class="bi bi-phone-fill"></i>
+                      </a>
+                    </div>
+                    <div><a href="tel:+91995559990">9995559990</a></div>
+                  </li>
+                  <li>
+                    <div>
+                      <a class="mailto" href="mailto: info@fastride.com">
+                        <i class="bi bi-envelope-fill"></i>
+                      </a>
+                    </div>
+                    <div>
+                      <a class="mailto" href="mailto:info@exim.ae">
+                        info@fastride.com
+                      </a>
+                    </div>
+                  </li>
+                  <!-- <li>
+                    <div>
+                      <a href="www.exim.ae" target="_blank">
+                        <i class="bi bi-globe"></i>
+                      </a>
+                    </div>
+                    <div>
+                      <a href="www.exim.ae" target="_blank">www.exim.ae</a>
+                    </div>
+                  </li> -->
+                  <li>
+                    <div class="icons-colors">
+                      <a
+                        href="https://www.facebook.com/p/Fast-Ride-Shipping-LLC-61555795743024/"
+                        target="_blank"
+                      >
+                        <i class="bi bi-facebook"></i>
+                      </a>
+                      <a
+                        href="https://www.instagram.com/fastrideshipping/"
+                        target="_blank"
+                        ><i class="bi bi-instagram"></i
+                      ></a>
+                      <!-- <i class="bi bi-twitter-x"></i> -->
+                      <a
+                        href="https://ae.linkedin.com/company/fastride-shipping-llc"
+                        target="_blank"
+                      >
+                        <i class="bi bi-linkedin"></i>
+                      </a>
+                      <!-- <i class="bi bi-twitter"></i> -->
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
 
     <!-- js script link bootstrap  -->
-    @include('js')
+    <script src="./assets/js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
