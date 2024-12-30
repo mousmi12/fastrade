@@ -363,7 +363,7 @@
                         </div> -->
                     </div>
 
-                    <div
+                    <!-- <div
                         class="col-12 border-2 border-top border-bottom pt-5 pb-5 icons-heading">
                         <div class="row">
                             <div
@@ -452,7 +452,103 @@
                                 </div>
                             </div>
                         </div>
+                    </div> -->
+                    <div
+              class="col-12 border-2 border-top border-bottom pt-5 pb-5 icons-heading"
+            >
+              <div class="row">
+                <div class="col-md-3 col-12 cols projects-icon-alignment">
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6 col-6 cols">
+                        <h1 class="d-flex">
+                          <label data-target="35700" class="counter"
+                            >35,700</label
+                          >
+                          +
+                        </h1>
+                      </div>
+                      <div
+                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center"
+                      >
+                        <i class="bi bi-box-seam-fill projects-icons-size"></i>
+                      </div>
                     </div>
+                    <div>
+                      <h4>Shipments completed</h4>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 col-12 projects-icon-alignment cols border-2 border-start"
+                >
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6 col-6 cols">
+                        <h1 class="d-flex">
+                        <label data-target="27500" class="counter">27,500</label>
+                          +
+                        </h1>
+                      </div>
+                      <div
+                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center"
+                      >
+                        <i class="bi bi-truck-flatbed projects-icons-size"></i>
+                      </div>
+                    </div>
+                    <div>
+                    <h4>Dangerous Goods Clearances</h4>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 col-12 cols projects-icon-alignment border-2 border-start border-end"
+                >
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6 col-6 cols">
+                        <h1 class="d-flex">
+                          <label data-target="590" class="counter">590</label>
+                          +
+                        </h1>
+                      </div>
+                      <div
+                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center"
+                      >
+                        <i
+                          class="bi bi-airplane-engines-fill projects-icons-size"
+                        ></i>
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Aircraft Engines clearance</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-12 cols projects-icon-alignment">
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6 col-6 cols">
+                        <h1 class="d-flex">
+                          <label data-target="1000" class="counter"
+                            >1,000</label
+                          >
+                          +
+                        </h1>
+                      </div>
+                      <div
+                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center"
+                      >
+                        <i class="bi bi-truck projects-icons-size"></i>
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Vehicle Shipments documented</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
                 </div>
             </div>
         </section>

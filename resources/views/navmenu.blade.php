@@ -27,17 +27,17 @@
                     <a
                       class="nav-link navbarfontColorSize"
                       aria-current="page"
-                      href="#"
+                      href="{{ url('/') }}"
                       >Home</a
                     >
                   </li>
                   <li class="nav-item m-auto">
-                    <a class="nav-link navbarfontColorSize" href="#"
+                    <a class="nav-link navbarfontColorSize" href=""
                       >Who We Are</a
                     >
                   </li>
                   <li class="nav-item m-auto">
-                    <a class="nav-link navbarfontColorSize" href="#"
+                    <a class="nav-link navbarfontColorSize " href="{{ route('services') }}"
                       >Services</a
                     >
                   </li>
@@ -128,15 +128,15 @@
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item m-auto">
                         <a
-                            class="nav-link navbarfontColorSize"
+                            class="nav-link navbarfontColorSize  {{ Request::is('/') ? 'active' : '' }}"
                             aria-current="page"
-                            href="#">Home</a>
+                            href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link navbarfontColorSize" href="#">Who We Are</a>
+                        <a class="nav-link navbarfontColorSize " href="#">Who We Are</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link navbarfontColorSize" href="#">Services</a>
+                        <a class="nav-link navbarfontColorSize  {{ Request::is('services') ? 'active' : '' }}" href="{{ route('services') }}">Services</a>
                     </li>
                     <li class="nav-item m-auto">
                         <a class="nav-link navbarfontColorSize" href="#">DG Cargo</a>

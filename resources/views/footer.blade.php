@@ -14,7 +14,7 @@
               </div>
               <div>
                 <p class="footerparagraphwidth">
-                Fastride Shipping LLC is one of Dubai’s leading shipping and logistics companies, providing comprehensive freight forwarding solutions across the UAE and beyond.
+                Fastride Shipping LLC is one of the leading shipping and logistics companies, providing comprehensive freight forwarding solutions across the UAE and beyond.
                 </p>
               </div>
               <!-- <div class="icons-colors ">
@@ -67,7 +67,10 @@
                         <i class="bi bi-phone-fill"></i>
                       </a>
                     </div>
-                    <div><a href="tel:+91995559990">+971552178868, +97142828570, +97142820697</a></div>
+                    <div><a href="tel:+971552178868">+971552178868,  </a><br>
+                <a href="tel:+97142828570">+97142828570,</a><br>
+                <a href="tel:+97142820697">+97142820697</a>
+                </div>
                   </li>
                   <li>
                     <div>
@@ -106,10 +109,10 @@
                       ></a>
                       <!-- <i class="bi bi-twitter-x"></i> -->
                       <a
-                        href="https://ae.linkedin.com/company/fastride-shipping-llc"
+                        href="https://g.co/kgs/MQCwUYn"
                         target="_blank"
                       >
-                        <i class="bi bi-linkedin"></i>
+                      <img src="{{asset('assets/images/google.svg')}}" alt="Google Business" class="google-icon" />
                       </a>
                       <!-- <i class="bi bi-twitter"></i> -->
                     </div>
