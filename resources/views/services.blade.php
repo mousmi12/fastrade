@@ -76,7 +76,7 @@
             <div class="col-11 air-Freight-bg">
               <div class="air-Freight-img-position">
                 <img
-                  src="{{asset('assets/images/services/780 x 420_2.jpg')}}"
+                  src="{{asset('assets/images/services/780 x 420_5.jpg')}}"
                   alt=""
                   width="100%"
                   srcset=""

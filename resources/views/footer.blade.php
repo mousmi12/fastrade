@@ -55,7 +55,7 @@
                     </div>
                     <div>
                       <a href="#">
-                      P O Box 183823, Al Khabaisi, Deira, Dubai, UAE
+                      Al Khabaisi, Deira, Dubai, UAE
                         <br />
 
                       </a>
@@ -63,13 +63,19 @@
                   </li>
                   <li>
                     <div>
-                      <a href="tel:+971 4282 3411">
+                    <a href="tel:+97142828570">
+                    <i class="bi bi-telephone-fill"></i>
+                    +97142828570 |</a>
+                    <a href="tel:+97142820697">+97142820697</a>
+                    <br>
+                    <a href="tel:+971552178868">
                         <i class="bi bi-phone-fill"></i>
-                      </a>
+                        +971552178868,  </a>
+
                     </div>
-                    <div><a href="tel:+971552178868">+971552178868,  </a><br>
-                <a href="tel:+97142828570">+97142828570,</a><br>
-                <a href="tel:+97142820697">+97142820697</a>
+                    <div>
+
+
                 </div>
                   </li>
                   <li>
@@ -107,11 +113,30 @@
                         target="_blank"
                         ><i class="bi bi-instagram"></i
                       ></a>
-                      <!-- <i class="bi bi-twitter-x"></i> -->
+                      <a
+                        href="https://ae.linkedin.com/company/fastride-shipping-llc"
+                        target="_blank"
+                      >
+                        <i class="bi bi-twitter-x"></i>
+                      </a>
+                      <a
+                        href="https://ae.linkedin.com/company/fastride-shipping-llc"
+                        target="_blank"
+                      >
+                        <i class=" bi bi-youtube"></i>
+                      </a>
+                      <a
+                        href="https://ae.linkedin.com/company/fastride-shipping-llc"
+                        target="_blank"
+                      >
+                        <i class="bi bi-linkedin"></i>
+                      </a>
+
                       <a
                         href="https://g.co/kgs/MQCwUYn"
                         target="_blank"
                       >
+
                       <img src="{{asset('assets/images/google.svg')}}" alt="Google Business" class="google-icon" />
                       </a>
                       <!-- <i class="bi bi-twitter"></i> -->
