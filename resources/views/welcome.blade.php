@@ -43,96 +43,93 @@
 
 
         <section class="slider">
-        <!-- Banner 1 -->
-        <div class="slides">
-          <div class="banner-section">
-            <div class="pt-5 position-relative">
-              <div>
-                <img
-                  src="{{asset('assets/images/Banner 1920 x 800.jpg')}}"
-                  width="100%"
-                  alt="Banner 1"
-                />
-              </div>
-              <div>
-                <div class="gatway"></div>
-                <div class="d-flex justify-content-start align-items-center">
-                  <div class="gatway-postion container">
-                    <div class="gatwayHeading">
-                      <h1>Your Gateway to</h1>
-                      <h1>Global Freight</h1>
-                      <h1>Solutions</h1>
+            <!-- Banner 1 -->
+            <div class="slides">
+                <div class="banner-section">
+                    <div class="pt-5 position-relative">
+                        <div>
+                            <img
+                                src="{{asset('assets/images/Banner 1920 x 800.jpg')}}"
+                                width="100%"
+                                alt="Banner 1" />
+                        </div>
+                        <div>
+                            <div class="gatway"></div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <div class="gatway-postion container">
+                                    <div class="gatwayHeading">
+                                        <h1>Your Gateway to</h1>
+                                        <h1>Global Freight</h1>
+                                        <h1>Solutions</h1>
+                                    </div>
+                                    <div>
+                                        <p class="gatway-pargraph">
+                                            Connecting the Middle East to global markets with precision and care. Fastride delivers excellence in every shipment.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                      <p class="gatway-pargraph">
-                      Connecting the Middle East to global markets with precision and care. Fastride delivers excellence in every shipment.
-                      </p>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <!-- Banner 2 -->
-          <div class="banner-section">
-            <div class="pt-5 position-relative">
-              <div>
-                <img
-                  src="{{asset('assets/images/Banner 1920 x 800 _ all _ 2.jpg')}}"
-                  width="100%"
-                  alt="Banner 2"
-                />
-              </div>
-              <div class="">
-                <div class="gatway"></div>
-                <div class="d-flex justify-content-start align-items-center">
-                  <div class="gatway-postion container">
-                    <div class="gatwayHeading">
-                      <h1>Efficient</h1>
-                      <h1>Shipping Services</h1>
+                <!-- Banner 2 -->
+                <div class="banner-section">
+                    <div class="pt-5 position-relative">
+                        <div>
+                            <img
+                                src="{{asset('assets/images/Banner 1920 x 800 _ all _ 2.jpg')}}"
+                                width="100%"
+                                alt="Banner 2" />
+                        </div>
+                        <div class="">
+                            <div class="gatway"></div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <div class="gatway-postion container">
+                                    <div class="gatwayHeading">
+                                        <h1>Efficient</h1>
+                                        <h1>Shipping Services</h1>
+                                    </div>
+                                    <div>
+                                        <p class="gatway-pargraph">
+                                            Nulla facilisi. Aenean vestibulum elit in ligula
+                                            tristique, non ultricies nisi placerat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                      <p class="gatway-pargraph">
-                        Nulla facilisi. Aenean vestibulum elit in ligula
-                        tristique, non ultricies nisi placerat.
-                      </p>
-                    </div>
-                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <!-- Banner 3 -->
-          <div class="banner-section">
-            <div class="pt-5 position-relative">
-              <div>
-                <img
-                  src="{{asset('assets/images/Banner 1920 x 800 _ all.jpg')}}"
-                  width="100%"
-                  alt="Banner 3"
-                />
-              </div>
-              <div class="">
-                <div class="gatway"></div>
-                <div class="d-flex justify-content-start align-items-center">
-                  <div class="gatway-postion container">
-                    <div class="gatwayHeading">
-                      <h1>Connecting</h1>
-                      <h1>The World</h1>
+                <!-- Banner 3 -->
+                <div class="banner-section">
+                    <div class="pt-5 position-relative">
+                        <div>
+                            <img
+                                src="{{asset('assets/images/Banner 1920 x 800 _ all.jpg')}}"
+                                width="100%"
+                                alt="Banner 3" />
+                        </div>
+                        <div class="">
+                            <div class="gatway"></div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <div class="gatway-postion container">
+                                    <div class="gatwayHeading">
+                                        <h1>Connecting</h1>
+                                        <h1>The World</h1>
+                                    </div>
+                                    <div>
+                                        <p class="gatway-pargraph">
+                                            Phasellus convallis magna ac semper faucibus. Curabitur
+                                            euismod nisl vel massa sagittis volutpat.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                      <p class="gatway-pargraph">
-                        Phasellus convallis magna ac semper faucibus. Curabitur
-                        euismod nisl vel massa sagittis volutpat.
-                      </p>
-                    </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </section>
+        </section>
 
         <!-- why choose FASTRIDE -->
         <section class="why-choose">
@@ -560,7 +557,8 @@
                                         </div>
                                         <div
                                             class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">
-                                            <i class="bi bi-box-seam-fill projects-icons-size"></i>
+                                            <!-- <i class="bi bi-box-seam-fill projects-icons-size"></i> -->
+                                            <img src="{{ asset('assets/images/shipment completed.svg') }}" alt="shipment completed" class="projects-icons-size" />
                                         </div>
                                     </div>
                                     <div>
@@ -580,7 +578,8 @@
                                         </div>
                                         <div
                                             class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">
-                                            <i class="bi bi-truck-flatbed projects-icons-size"></i>
+                                            <!-- <i class="bi bi-truck-flatbed projects-icons-size"></i> -->
+                                            <img src="{{ asset('assets/images/Dg.svg') }}" alt="Dangerous Goods Icon" class="projects-icons-size" />
                                         </div>
                                     </div>
                                     <div>
@@ -600,8 +599,9 @@
                                         </div>
                                         <div
                                             class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">
-                                            <i
-                                                class="bi bi-airplane-engines-fill projects-icons-size"></i>
+                                            <!-- <i
+                                                class="bi bi-airplane-engines-fill projects-icons-size"></i> -->
+                                                <img src="{{ asset('assets/images/aircraft engine.svg') }}" alt="aircraft engine" class="projects-icons-size" />
                                         </div>
                                     </div>
                                     <div>
@@ -620,7 +620,8 @@
                                         </div>
                                         <div
                                             class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">
-                                            <i class="bi bi-truck projects-icons-size"></i>
+                                            <!-- <i class="bi bi-truck projects-icons-size"></i> -->
+                                            <img src="{{ asset('assets/images/vehicle shipment.svg') }}" alt="vehicle shipment" class="projects-icons-size" />
                                         </div>
                                     </div>
                                     <div>
