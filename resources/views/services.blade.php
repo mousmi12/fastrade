@@ -181,7 +181,7 @@
       <div class="special-ExpertiseBanner">
         <div class="special-Expertise-Banner">
           <img
-            src="{{asset('assets/images/services/1920x680.jpg')}}"
+            src="{{asset('assets/images/services/Services DG 1920x680 _ 1.jpg')}}"
             width="100%"
             alt=""
             srcset=""

@@ -49,7 +49,7 @@
                     <div class="pt-5 position-relative">
                         <div>
                             <img
-                                src="{{asset('assets/images/Banner 1920 x 800.jpg')}}"
+                                src="{{asset('assets/images/HomeBanner 1920 x 800 _ 1.jpg')}}"
                                 width="100%"
                                 alt="Banner 1" />
                         </div>
@@ -105,7 +105,7 @@
                     <div class="pt-5 position-relative">
                         <div>
                             <img
-                                src="{{asset('assets/images/Banner 1920 x 800 _ all.jpg')}}"
+                                src="{{asset('assets/images/HomeBanner 1920 x 800 _ 2.jpg')}}"
                                 width="100%"
                                 alt="Banner 3" />
                         </div>
@@ -434,23 +434,14 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-md-5 col-12 cols">
-                            <div>
-                                <div>
-                                    <h1>Vivamus iaculis libero</h1>
-                                </div>
-                                <div>
-                                    <p class="projects-paragraphalignment">
-                                        Nulla tempus ultrices felis ut tristique. Pellentesque ut
-                                        ultrices ante. Nunc in odio vitae turpis convallis mattis
-                                        in ac velit. Integer consequat congue tellus, eget commodo
-                                        neque fermentum sed. Nullam sit amet sem ac arcu euismod
-                                        luctus quis sed metus. Donec blandit eros ac ante pretium,
-                                        a tincidunt turpis porttitor.
-                                    </p>
-                                </div>
-                            </div>
-                        </div> -->
+                        <div class="col-md-5 col-12 cols">
+                        <img
+                                        src="{{asset('assets/images/722 x 454.jpg')}}"
+                                        alt=""
+                                        srcset=""
+                                        width="100%"
+                                        class="rounded-5" />
+                        </div>
                     </div>
 
                     <!-- <div
@@ -643,8 +634,7 @@
                         class="col-md-6 col-12 cols d-flex justify-content-center align-items-center">
                         <div class="col-md-10 col-12">
                             <div>
-                                <h1>Track Your</h1>
-                                <h1>Shipment</h1>
+                                <h1>Track Your Shipment</h1>
                             </div>
                             <div>
                                 <p class="track-your-shippment-pargraph">

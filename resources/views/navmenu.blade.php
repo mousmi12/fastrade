@@ -70,7 +70,7 @@
                             <a class="nav-link navbarfontColorSize {{ Request::is('dgcargo') ? 'active' : '' }}" href="#">DG Cargo</a>
                         </li>
                         <li class="nav-item m-auto">
-                            <a class="nav-link navbarfontColorSize {{ Request::is('connectus') ? 'active' : '' }}" href="#">Let's connect</a>
+                            <a class="nav-link navbarfontColorSize {{ Request::is('connectus') ? 'active' : '' }}" href="{{ route('connectus') }}">Let's connect</a>
                         </li>
                         <li class="nav-item whatsappColor">
                             <a class="navbar-brand text-white" href="#"></a>
@@ -161,7 +161,7 @@
                         <a class="nav-link navbarfontColorSize" href="#">DG Cargo</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link navbarfontColorSize" href="#">Let's connect</a>
+                        <a class="nav-link navbarfontColorSize" href="{{ route('connectus') }}">Let's connect</a>
                     </li>
                     <li class="nav-item whatsappColor m-3">
                         <a class="navbar-brand text-white" href="#"><i class="bi bi-whatsapp whatsappColorfontsize"></i></a>
