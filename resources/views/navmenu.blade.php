@@ -67,7 +67,7 @@
                         </li>
                         </li>
                         <li class="nav-item m-auto">
-                            <a class="nav-link navbarfontColorSize {{ Request::is('dgcargo') ? 'active' : '' }}" href="#">DG Cargo</a>
+                            <a class="nav-link navbarfontColorSize {{ Request::is('dgcargo') ? 'active' : '' }}" href="{{ route('dgcargo') }}">DG Cargo</a>
                         </li>
                         <li class="nav-item m-auto">
                             <a class="nav-link navbarfontColorSize {{ Request::is('connectus') ? 'active' : '' }}" href="{{ route('connectus') }}">Let's connect</a>
@@ -158,7 +158,7 @@
                         <a class="nav-link navbarfontColorSize  {{ Request::is('services') ? 'active' : '' }}" href="{{ route('services') }}">Services</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link navbarfontColorSize" href="#">DG Cargo</a>
+                        <a class="nav-link navbarfontColorSize" href="{{ route('dgcargo') }}">DG Cargo</a>
                     </li>
                     <li class="nav-item m-auto">
                         <a class="nav-link navbarfontColorSize" href="{{ route('connectus') }}">Let's connect</a>
