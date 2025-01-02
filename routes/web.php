@@ -14,3 +14,6 @@ Route::get('/dgcargo', function () {
 Route::get('/connectus', function () {
     return view('connectus');
 })->name('connectus');
+Route::get('/discoverus', function () {
+    return view('discoverus');
+})->name('discoverus');

@@ -60,7 +60,7 @@
                                 href="{{ url('/') }}">Home</a>
                         </li>
                         <li class="nav-item m-auto">
-                            <a class="nav-link navbarfontColorSize" href="">Discover us</a>
+                            <a class="nav-link navbarfontColorSize {{ Request::is('discoverus') ? 'active' : '' }}" href="{{ route('discoverus') }}">Discover us</a>
                         </li>
                         <li class="nav-item m-auto">
                             <a class="nav-link navbarfontColorSize {{ Request::is('services') ? 'active' : '' }}" href="{{ route('services') }}">Services</a>
@@ -152,7 +152,7 @@
                             href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item m-auto">
-                        <a class="nav-link navbarfontColorSize " href="#">Discover us</a>
+                        <a class="nav-link navbarfontColorSize {{ Request::is('discoverus') ? 'active' : '' }}" href="{{ route('discoverus') }}">Discover us</a>
                     </li>
                     <li class="nav-item m-auto">
                         <a class="nav-link navbarfontColorSize  {{ Request::is('services') ? 'active' : '' }}" href="{{ route('services') }}">Services</a>

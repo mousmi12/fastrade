@@ -3,19 +3,53 @@
 
 
 <body>
-    <section class="letsconnect">
+
+
+<section class="sevices-plane-image-banner">
+      <div class="banner-container">
+        <img
+          src="{{asset('assets/images/Banner 1920 x 800 lets connect.jpg')}}"
+          width="100%"
+          alt=""
+          srcset=""
+        />
+      </div>
+    </section>
+
+    <!--  Comprehensive-Freight-Solutions -->
+    <section class="comprehensive-section">
+
+      <div class="comprehensive-Freight-Solutions-content">
+        <div class="comprehensive-Freight-Solutions-Heading">
+          <h1>Get to Know Us</h1>
+
+        </div>
+        <div class="comprehensive-Freight-Solutions-Paragraph">
+          <p>
+          At Fastride, every shipment is personal. Our team believes in building strong, long-term relationships with clients, based on mutual trust and respect. Whether we're moving a fleet of vehicles or a single parcel, we treat every delivery as our top priority.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- <section class="letsconnect">
         <div>
             <div class="banner-container">
                 <img src="{{asset('assets/images/Banner 1920 x 800 lets connect.jpg')}}" width="100%" alt="Banner" />
                 <div class="content-overlay connectus">
-                    <div class="container">
+                    <div class="comprehensive-Freight-Solutions-Heading">
+                        <div class="col-6 col-md-4">
                         <h1>Get to Know Us</h1>
-                        <p >At Fastride, every shipment is personal. Our team believes in building strong, long-term relationships with clients, based on mutual trust and respect. Whether we're moving a fleet of vehicles or a single parcel, we treat every delivery as our top priority.</p>
+                        <p class="comprehensive-Freight-Solutions-Paragraph" >At Fastride, every shipment is personal. Our team believes in building strong, long-term relationships with clients, based on mutual trust and respect. Whether we're moving a fleet of vehicles or a single parcel, we treat every delivery as our top priority.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="find-us">
         <div class="container connect-contact-section">
@@ -25,14 +59,6 @@
                     <h1>Find Us</h1>
                     <p>Ready to experience logistics done right? Reach out to us today to discuss how we can support your business and shipping needs.</p>
 
-                    <!-- <a href="tel:+971 4282 3411">
-                            <i class="bi bi-telephone-fill" style="margin-left: 10px;"></i>
-                            </i>+971 5575 98 501</a>
-
-                        <a class="mailto" href="mailto:info@exim.ae">
-                            <i class="bi bi-envelope-fill" style="margin-left: 10px;"></i>
-                            enquiry@fastride.ae
-                        </a> -->
                     <div>
                         <a href="tel:+971552178868">
                             &nbsp; <i class="bi bi-telephone-fill"></i> +971552178868

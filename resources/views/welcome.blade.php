@@ -627,7 +627,7 @@
         </section>
 
         <!-- trak your shipment -->
-        <section class="trak-your-shipment d-flex align-items-center">
+        <!-- <section class="trak-your-shipment d-flex align-items-center">
             <div class="container track-your-shippment-baground">
                 <div class="row rowheight">
                     <div
@@ -643,8 +643,7 @@
                             </div>
                         </div>
                     </div>
-                    <div
-                        class="col-md-6 col-12 cols d-flex justify-content-center align-items-center">
+                    <div class="col-md-6 col-12 cols d-flex justify-content-center align-items-center">
                         <div class="track-your-shippment-orders">
                             <div
                                 class="d-flex d-flex justify-content-center align-items-center">
@@ -677,8 +676,66 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
+        <!-- trak your shipment -->
+      <section class="trak-your-shipment d-flex align-items-center">
+        <div class="container track-your-shippment-baground">
+          <div class="row rowheight">
+            <div
+              class="col-md-6 col-12 cols d-flex justify-content-center align-items-start"
+            >
+              <div class="col-md-10 col-12">
+                <div class="pt-4">
+                  <h1>Track Your</h1>
+                  <h1>Shipment</h1>
+                </div>
+                <div>
+                  <p class="track-your-shippment-pargraph">
+                  Monitor the status of your shipment in real time. Simply enter your tracking number, and stay updated on your cargo’s journey - no matter where it is.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-6 col-12 cols d-flex justify-content-center align-items-center"
+            >
+              <div class="track-your-shippment-orders">
+                <div
+                  class="d-flex d-flex justify-content-center align-items-center"
+                >
+                  <div class="col-10 d-flex orderfontaws pb-3">
+                    <div class="me-2">Order ID</div>
+                    <div class="ms-5">AWD</div>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-center align-items-center">
+                  <form action="" class="col-10">
+                    <div>
+                      <div class="mb-3">
+                        <input
+                          type="text"
+                          id="disabledTextInput"
+                          class="form-control forminputbuttonheight"
+                          placeholder=" Enter You Order ID"
+                        />
+                      </div>
+                      <div>
+                        <button
+                          type="submit"
+                          class="formbuttoncolor col-12 forminputbuttonheight"
+                        >
+                          Submit
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
         <!-- footer section -->
         @include('footer')
 
