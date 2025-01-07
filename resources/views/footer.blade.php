@@ -114,13 +114,13 @@
                         ><i class="bi bi-instagram"></i
                       ></a>
                       <a
-                        href="https://ae.linkedin.com/company/fastride-shipping-llc"
+                        href="#"
                         target="_blank"
                       >
                         <i class="bi bi-twitter-x"></i>
                       </a>
                       <a
-                        href="https://ae.linkedin.com/company/fastride-shipping-llc"
+                        href="#"
                         target="_blank"
                       >
                         <i class=" bi bi-youtube"></i>
@@ -146,5 +146,15 @@
               </div>
             </div>
           </div>
+          <div>
+          <div class="col-12 text-center mt-3">
+        <p class="mb-0">&copy; {{ now()->year }} <a href="https://www.marcaband.com" target="_blank" style="text-decoration: none; color: inherit;">
+    Marcaband
+  </a>.
+  All rights reserved.</p>
+      </div>
+          </div>
         </div>
+
       </footer>
+

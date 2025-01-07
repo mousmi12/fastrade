@@ -81,12 +81,7 @@
           </div>
           <div class="col-12 Our-Leadership-heading-paragraph">
             <p>
-              At the helm of Fastride Shipping is Mr. Riyaz Abbas, our General
-              Manager. Mr. Abbas’s vision and dedication have been key to
-              driving Fastride’s success. With over two decades of experience in
-              the logistics industry, his strategic insights have shaped the
-              direction of the company, establishing Fastride as a leading name
-              in the region.
+            At the forefront of Fastride Shipping is Mr. Riyaz Abbas, our Founder. His vision and dedication have been instrumental in driving Fastride’s success. With over two decades of experience in the logistics industry, his strategic insights and hands-on approach to managing operations have shaped the company’s direction, establishing Fastride as a leading name in the region.
             </p>
           </div>
         </div>
@@ -166,10 +161,10 @@
       </div>
     </section>
     <!-- Our Commitment -->
-    <section class="position-relative">
+    <!-- <section class="position-relative">
       <div>
         <img
-          src="{{asset('assets/images/Discover-Us/Banner 1920 x 740.jpg')}}"
+          src="{{asset('assets/images/Discover-Us/Banner 1920 x 740 1.jpg')}}"
           width="100%"
           alt=""
           srcset=""
@@ -203,13 +198,53 @@
           <div class="col-6"></div>
         </div>
       </div>
+    </section> -->
+    <section
+      class="position-relative d-flex justify-content-center align-items-center"
+    >
+      <div>
+        <img
+          src="{{asset('assets/images/Discover-Us/Banner 1920 x 740 2.jpg')}}"
+          width="100%"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <div class="container position-absolute top-0" style="height: 100%">
+        <div class="row" style="height: 100%">
+          <div
+            class="col-md-6 col-12 Our-Commitment d-flex justify-content-center align-items-center"
+          >
+            <div class="col-10">
+              <div>
+                <h1>
+                  Our Commitment <br />
+                  to Clients
+                </h1>
+              </div>
+              <div>
+                <p>
+                  At Fastride, we don't just deliver shipments – we provide
+                  peace of mind. Our team of experts goes above and beyond to
+                  ensure timely and safe delivery of every consignment, whether
+                  it’s a time-sensitive air shipment or oversized project cargo.
+                  We understand that every client has unique needs, and we are
+                  always here to offer personalized advice and innovative
+                  solutions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Achievements -->
+
     <section class="Achievements">
       <div class="container">
         <div class="row">
-          <div class="col-md-7 col-12 cols">
+          <div class="col-md-6 p-0 col-12 cols">
             <div>
               <img
                 src="{{asset('assets/images/Discover-Us/880 x 740.jpg')}}"
@@ -220,7 +255,7 @@
             </div>
           </div>
           <div
-            class="col-md-5 col-12 cols d-flex justify-content-center align-items-center"
+            class="col-md-6 col-12 cols d-flex justify-content-center align-items-center"
           >
             <div class="col-11">
               <div>
@@ -256,6 +291,8 @@
         </div>
       </div>
     </section>
+
+
     <!-- Our Global Presence -->
     <section class="Our-Global-Presence">
       <div class="container">
@@ -285,6 +322,7 @@
     </section>
 
     <!-- Client Stories -->
+
     <section class="Client-Stories">
       <div class="container">
         <div class="row">
@@ -298,7 +336,7 @@
             <div
               class="col-12 d-flex justify-content-center align-items-center"
             >
-              <div class="col-9 ourvissioncolor p-5 position-relative">
+              <div class="col-11 ourvissioncolor p-5 position-relative">
                 <div class="col-md-12 quats-postion">
                   <img
                     src="{{asset('assets/images/Discover-Us/inverted comma.png')}}"
@@ -333,7 +371,7 @@
               class="col-12 d-flex justify-content-center align-items-center star-height"
             >
               <div
-                class="col-9 ourvissioncolor p-5 star-height position-relative"
+                class="col-11 ourvissioncolor p-5 star-height position-relative"
               >
                 <div class="col-md-12 quats-postion">
                   <img
@@ -370,7 +408,6 @@
         </div>
       </div>
     </section>
-
     <!-- Get-to-Know-Us -->
     <section class="Get-to-Know-Us">
       <div class="container">

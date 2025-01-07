@@ -2,10 +2,6 @@
     font-family: "CustomFont"; /* Name of the font you want to use */
     src: url("../Fonts/Poppins-Regular.ttf") format("truetype"); /* Path to the font file */
   }
-  @font-face {
-    font-family: "CustomFont2"; /* Name of the font you want to use */
-        src: url("../Fonts/IBMPlexSans-Medium.ttf") format("truetype"); /* Path to the font file */
-    }
 
   body {
     background: white;
@@ -950,6 +946,7 @@
     font-size: var(--subparagraph);
     text-align: justify;
     text-align-last: center;
+    color: black;
   }
 
   .Get-to-Know-Us a {
@@ -997,6 +994,110 @@
     position: absolute;
     top: -28px;
     right: 0px;
+  }
+
+  /* *****************************************connetUs******************************************************* */
+  .Get-to-Know-Us-heading h1 {
+    font-size: var(--mainheadingSize);
+    color: var(--ligt-green);
+    font-weight: 600;
+  }
+
+  .Get-to-Know-Us-heading p {
+    font-size: 22px;
+    color: white;
+    text-align: justify;
+    text-align-last: left;
+  }
+
+  .findus a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-size: var(--subparagraph);
+  }
+  .findus i {
+    margin-right: 30px;
+  }
+
+  .findus li {
+    display: flex;
+    padding: 5px 0px;
+  }
+
+  .findus ul {
+    padding: 0;
+    margin: 0;
+  }
+  .findus li a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  .findus li i {
+    color: var(--primary-color);
+    margin-right: 10px;
+  }
+
+  .findus iframe {
+    width: 100%;
+    border: 0;
+    /* border-radius: 30px; */
+    height: 200px;
+  }
+
+  .findus h1 {
+    font-size: var(--subparaHeading);
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+
+  .findus p {
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+  }
+
+  .findus-bg-color {
+    background-color: var(--lightfootercolor);
+    height: 100%;
+  }
+
+  .findus-bg-color input {
+    width: 100%;
+    border-radius: 20px;
+    height: 50px;
+    padding-left: 10px;
+
+    border: none;
+    margin: 5px 0px;
+    outline: none;
+  }
+
+  .findus-bg-color textarea {
+    width: 100%;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: none;
+    margin: 5px 0px;
+    outline: none;
+  }
+
+  .Send-a-Message {
+    height: 100%;
+  }
+
+  .Send-a-Message h1 {
+    font-size: var(--subparaHeading);
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+
+  .Send-a-Message button {
+    color: white;
+    border-radius: 10px;
+    background-color: #00568d;
+    border: none;
+    font-size: var(--subparagraph);
   }
 
   /* .testing-right {
@@ -2029,6 +2130,23 @@
       padding: 50px;
       margin: 0;
     }
+
+    .Get-to-Know-Us-heading {
+      padding: 0px 0px;
+    }
+
+    .Get-to-Know-Us-heading h1 {
+      font-size: var(--mainheadingSize);
+      color: var(--ligt-green);
+      font-weight: 600;
+    }
+
+    .Get-to-Know-Us-heading p {
+      font-size: 17px;
+      color: white;
+      text-align: justify;
+      text-align-last: left;
+    }
   }
 
   @media (max-width: 500px) {
@@ -2150,6 +2268,23 @@
       font-weight: 600;
       padding-bottom: 40px;
       padding-top: 40px;
+    }
+
+    .Get-to-Know-Us-heading {
+      padding: 0px 0px;
+    }
+
+    .Get-to-Know-Us-heading h1 {
+      font-size: var(--mainheadingSize);
+      color: var(--ligt-green);
+      font-weight: 600;
+    }
+
+    .Get-to-Know-Us-heading p {
+      font-size: var(--subparagraph);
+      color: white;
+      text-align: justify;
+      text-align-last: left;
     }
   }
 
@@ -2369,6 +2504,19 @@
       --subparaHeading: 27px;
       --subparagraph: 13px;
     }
+
+    .Get-to-Know-Us-heading h1 {
+      font-size: 27px;
+      color: var(--ligt-green);
+      font-weight: 600;
+    }
+
+    .Get-to-Know-Us-heading p {
+      font-size: 10px;
+      color: white;
+      text-align: justify;
+      text-align-last: left;
+    }
   }
 
   @media (max-width: 390px) {
@@ -2456,6 +2604,19 @@
       position: absolute;
       top: -201px;
       left: 30px;
+    }
+
+    .Get-to-Know-Us-heading h1 {
+      font-size: 20px;
+      color: var(--ligt-green);
+      font-weight: 600;
+    }
+
+    .Get-to-Know-Us-heading p {
+      font-size: 10px;
+      color: white;
+      text-align: justify;
+      text-align-last: left;
     }
   }
 
@@ -2566,169 +2727,25 @@
       padding: 14px;
       margin: 0;
     }
+
+    .Get-to-Know-Us-heading h1 {
+      font-size: 20px;
+      color: var(--ligt-green);
+      font-weight: 600;
+    }
+
+    .Get-to-Know-Us-heading p {
+      font-size: 10px;
+      color: white;
+      text-align: justify;
+      text-align-last: left;
+    }
   }
 
-
-
-  /* */
-  .google-icon {
-    width: 24px;
-    height: 24px;
-}
-.contact-info a,
-.social-links a {
-    color: white;
-    text-decoration: none;
-    margin-right: 20px;
-
-    font-size: 14px;
-}
-
-.social-links a {
-    margin-right: 15px;
-}
 .navbarfontColorSize.active {
     color: #3ab54a !important;
     font-weight: bold;
 }
-.letsconnect {
-    position: relative;
-    width: 100%;
-    height: 800px;
-    overflow: hidden;
-}
-
-.banner-container {
-    position: relative;
-    height: 100%;
-}
-
-.banner-container img {
-    position: absolute;
-    bottom: -18px;
-    padding: 0;
-}
-
-.content-overlay {
-    position: absolute;
-    bottom: 15%;
-    left: 10%;
-}
-
-.content-overlay h1 {
-    color: #4caf50;
-    font-size: 3.5rem;
-    margin-bottom: 1.5rem;
-}
-
-.content-overlay p {
-    color: white;
-    max-width: 800px;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    /* background: rgba(0, 0, 0, 0.3); */
-    padding: 20px;
-}
 
 
-.contact-section {
-    padding: 30px;
-    background-color: #f8f9fa;
-}
-
-.projects-icons-size {
-    width: 50px;
-    height: 50px;
-}
-
-/* Connect us */
-.connect-contact-section {
-    padding: 30px;
-}
-.connectus h1 {
-    font-size: var(--mainheadingSize);
-    color: var(--whatsapp-bg-color);
-    margin: 0px;
-    font-weight: 600;
-}
-
-.connectus p {
-    font-size: var(--subparagraph);
-    color: white;
-    width: 60%;
-    text-align: justify;
-    text-align-last: left;
-}
-.connect-message-box {
-    background-color: #a3d4ff;
-    padding: 20px;
-    border-radius: 8px;
-    height: 100%;
-}
-
-.connect-map-container {
-    margin-top: 20px;
-}
-
-.connect-social-icons a {
-    text-decoration: none;
-    color: var(--primary-color);
-    margin-left: 10px;
-}
-
-.connect-btn-submit {
-    background-color: #0d6efd;
-    color: white;
-    border: none;
-}
-
-.connect-btn-submit:hover {
-    background-color: #084298;
-}
-
-.connectfontColorSize {
-    color: white;
-    font-size: 20px;
-    transition: color 0.3s ease, font-size 0.3s ease;
-    font-weight: 500;
-}
-.connect-us h1 {
-    font-size: var(--subparaHeading);
-    color: var(--primary-color);
-}
-.connect-us p {
-    font-size: var(--subparagraph);
-}
-.connect-us a {
-    text-decoration: none;
-    font-size: var(--subparagraph);
-    color: black;
-}
-.connect-us i {
-    text-decoration: none;
-    color: var(--primary-color);
-}
-.connect-us-submit h3 {
-    font-family: "CustomFont2";
-    color: var(--primary-color);
-    /* margin-left: 42px; */
-    margin-top: 10px;
-    font-weight: bold;
-}
-.connect-us-form input {
-    height: 50px;
-    width: 90%;
-    margin-left: 16px;
-    border: none;
-    font-family: "CustomFont2";
-}
-.connect-us-form textarea {
-
-    width: 90%;
-    height:35%;
-    margin-left: 16px;
-    font-family: "CustomFont2";
-}
-
-
-
+/*......................*/

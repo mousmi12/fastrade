@@ -25,12 +25,12 @@
                                 href="https://www.instagram.com/fastrideshipping/"
                                 target="_blank" style="margin-left: 10px;"><i class="bi bi-instagram"></i></a>
                             <a
-                                href="https://ae.linkedin.com/company/fastride-shipping-llc"
+                                href="#"
                                 target="_blank" style="margin-left: 10px;">
                                 <i class="bi bi-twitter-x"></i>
                             </a>
                             <a
-                                href="https://ae.linkedin.com/company/fastride-shipping-llc"
+                                href="#"
                                 target="_blank" style="margin-left: 10px;">
                                 <i class=" bi bi-youtube"></i>
                             </a>
@@ -75,10 +75,10 @@
                         <li class="nav-item whatsappColor">
                             <a class="navbar-brand text-white" href="#"></a>
                         </li>
-                        <a href="">
-                            <i
-                                class="bi bi-whatsapp whatsappColorfontsize whatsappiconposition"></i>
+                        <a href="https://wa.me/971552178868" target="_blank">
+                            <i class="bi bi-whatsapp whatsappColorfontsize whatsappiconposition"></i>
                         </a>
+
 
                         <!-- <li class="nav-item dropdown">
                         <a
