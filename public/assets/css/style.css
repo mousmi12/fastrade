@@ -10,6 +10,69 @@
     font-family: "CustomFont";
   }
 
+  .border-top-image {
+    border-top: 0;
+  }
+
+  .mobile-icons-colors-footer a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+
+  .mobile-logo-shap {
+    clip-path: polygon(10% 10%, 100% 10%, 70% 100%, 10% 100%);
+    background-color: var(--primary-color);
+    padding: 20px;
+  }
+
+  .mobile-nave-menu-ul {
+    width: 70%;
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  .mobile-navbarfontColorSize {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+    font-weight: 500;
+    padding-left: 20px;
+  }
+
+  .mobile-navbarfontColorSize:hover {
+    background-color: #3ab54a;
+    color: white;
+  }
+
+  .mobile-navbarfontColorSize-navmenu {
+    color: white;
+  }
+
+  .mobile-navbarfontColorSize-navmenu:hover {
+    background-color: #3ab54a;
+    clip-path: polygon(26% 10%, 100% 10%, 100% 100%, 10% 100%);
+    position: relative;
+    left: -100px;
+    padding-left: 100px;
+    color: white;
+  }
+
+  .mobile-navbarfontColorSize-socialmedia {
+    color: var(--primary-color);
+    font-size: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+    font-weight: 500;
+  }
+
+  .mobile-navbarfontColorSize-socialmedia-bg {
+    background-color: var(--footerbgcolor);
+  }
+
+  .mobile-whatsappColorfontsize {
+    font-size: 25px;
+    color: var(--hover-color);
+  }
+
   .slider {
     display: flex;
     width: 100%;
@@ -21,6 +84,11 @@
     display: flex;
     width: 300%; /* 3 banners = 300% */
     animation: slideAnimation 12s infinite;
+    height: 100%;
+  }
+
+  .baner-image-slider-height {
+    height: 100%;
   }
 
   .banner-section {
@@ -133,6 +201,14 @@
   .navmenu-location {
     background-color: #a3d4ff;
     height: 40px;
+  }
+
+  .border-sm-bottom {
+    border-bottom: none;
+  }
+
+  .border-sm-top {
+    border-top: none;
   }
 
   /* footer section */
@@ -294,6 +370,10 @@
 
   .icons-heading h1 {
     font-weight: 600;
+  }
+
+  .Our-Key-Destinations-bg-img img {
+    height: 100%;
   }
 
   /* Our-Key-Destinations-bg-img */
@@ -475,6 +555,11 @@
 
   /* ************************************ sevices-page ************************************************************ */
   /* comprehensive-Freight-Solutions */
+
+  .sevices-plane-image-banner img {
+    width: 100%;
+    height: auto;
+  }
   .comprehensive-Freight-Solutions {
     position: absolute;
     top: -360px;
@@ -687,6 +772,7 @@
 
   .Our-Expertise-img {
     z-index: 1;
+    width: 70%;
   }
   .Our-Expertise ul {
     list-style-type: square;
@@ -717,6 +803,18 @@
   .dgcargo-goods-bg {
     background-color: var(--transparentblue);
     width: fit-content;
+  }
+
+  .dgcargo-goods-bg-mobile {
+    background-color: var(--transparentblue);
+    width: fit-content;
+    clip-path: polygon(0% 0%, 100% 0%, 85% 100%, 0% 100%);
+  }
+
+  .dgcargo-goods-bg-img-mobile {
+    position: absolute;
+    top: -21px;
+    right: 0;
   }
 
   .dgcargo-goods-bg-img {
@@ -815,7 +913,7 @@
 
   .img-Perfumes-postion {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
   }
 
   .img-Perfumes-shaps {
@@ -879,6 +977,11 @@
   .Our-Commitment {
     background-color: var(--transparentblue);
     height: 100%;
+  }
+
+  .Our-Commitment-img {
+    width: 100%;
+    height: auto;
   }
 
   .Our-Commitment h1 {
@@ -1244,7 +1347,7 @@
 
     .dgcargo-goods-cargo-bg-image-position {
       position: absolute;
-      bottom: -12px;
+      bottom: 0;
       padding: 0;
     }
   }
@@ -1539,7 +1642,7 @@
 
     .img-Perfumes-postion {
       position: absolute;
-      bottom: 0px;
+      bottom: 0;
     }
 
     .img-Perfumes-shaps {
@@ -1847,7 +1950,7 @@
 
     .img-Perfumes-postion {
       position: absolute;
-      bottom: 0px;
+      bottom: 0;
     }
 
     .img-Perfumes-shaps {
@@ -2127,7 +2230,7 @@
       color: white;
       font-size: 20px;
       font-weight: 800;
-      padding: 50px;
+      padding: 40px;
       margin: 0;
     }
 
@@ -2147,6 +2250,119 @@
       text-align: justify;
       text-align-last: left;
     }
+
+    .track-your-shippment-orders {
+      width: 100%;
+      padding: 60px 0px;
+      background: var(--footerbgcolor);
+    }
+
+    .track-your-shippment-pargraph {
+      width: 100%;
+      text-align: justify;
+      text-align-last: left;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 124%;
+      left: 0%;
+    }
+
+    .Our-Key-Destinations-paragraph {
+      font-size: var(--subparagraph);
+      color: white;
+      text-align: justify;
+      text-align-last: left;
+      width: 100%;
+    }
+
+    .footerparagraphwidth {
+      width: 100%;
+      text-align: justify;
+      text-align-last: left;
+    }
+    .sevices-plane-image-banner img {
+      width: 100%;
+      height: 300px;
+    }
+
+    .special-Expertise-paragraph p {
+      font-size: var(--subparagraph);
+      color: white;
+      text-align: justify;
+      text-align-last: left;
+    }
+
+    .The-Fastride-Story-heading-paragraph p {
+      font-size: var(--subparagraph);
+      text-align: justify;
+      text-align-last: left;
+    }
+
+    .Our-Leadership-heading-paragraph p {
+      font-size: var(--subparagraph);
+      text-align: justify;
+      text-align-last: left;
+    }
+    .Our-Commitment-img {
+      width: 100%;
+      height: 350px;
+    }
+
+    .quats-postion {
+      position: absolute;
+      top: -28px;
+      left: 0px;
+    }
+
+    .Get-to-Know-Us {
+      padding: 20px 0px 20px 0px;
+    }
+
+    .Get-to-Know-Us p {
+      font-size: var(--subparagraph);
+      text-align: justify;
+      text-align-last: left;
+      color: black;
+    }
+
+    .Our-Expertise-img {
+      z-index: 1;
+      width: 90%;
+    }
+
+    .Our-Expertise-shaps {
+      clip-path: polygon(0% 364%, 100% -325%, 100% 100%, 0% 100%);
+      width: 100%;
+      height: 276px;
+      background-color: var(--ligt-green);
+    }
+
+    .Perfumes {
+      padding-bottom: 60px;
+    }
+
+    .img-Perfumes-shaps {
+      clip-path: polygon(0% 0%, 60% 0%, 73% 100%, 0% 100%);
+      width: 60%;
+      height: 175px;
+      background-color: var(--ligt-green);
+    }
+
+    .safe-Compliant-heading-paragraph p {
+      font-size: var(--subparagraph);
+      text-align: justify;
+      text-align-last: left;
+    }
+
+    .border-sm-bottom {
+      border-bottom: 1px solid white;
+    }
+
+    .border-sm-top {
+      border-top: 1px solid white;
+    }
   }
 
   @media (max-width: 500px) {
@@ -2160,15 +2376,6 @@
       --paragraphsize: 8px;
       --subparaHeading: 30px;
       --subparagraph: 15px;
-    }
-    .gatway {
-      position: absolute;
-      top: 0;
-      border-left: 0px solid transparent;
-      border-right: 200px solid transparent;
-      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
-      border-bottom: 0px solid orange;
-      width: 80%;
     }
 
     .navbarimg {
@@ -2197,7 +2404,7 @@
     }
 
     .Fast-Ride-Shipping-l-l-c {
-      padding: 775px 0px 100px 0px;
+      padding: 580px 0px 100px 0px;
     }
 
     .videosdiv {
@@ -2219,7 +2426,7 @@
 
     .comprehensive-Freight-Solutions-content {
       position: absolute;
-      top: -201px;
+      top: -177px;
       left: 30px;
     }
 
@@ -2286,6 +2493,49 @@
       text-align: justify;
       text-align-last: left;
     }
+
+    .track-your-shippment-orders {
+      width: 100%;
+      padding: 60px 0px;
+      background: var(--footerbgcolor);
+    }
+
+    .projects-paragraphalignment {
+      text-align: justify;
+      text-align-last: left;
+      font-size: var(--subparagraph);
+    }
+
+    .Our-Key-Destinations-bg-img img {
+      height: 500px;
+    }
+
+    .gatway {
+      position: absolute;
+      top: 150px;
+      border-left: 0px solid transparent;
+      border-right: 200px solid transparent;
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-bottom: 0px solid orange;
+      width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
+    }
   }
 
   @media (max-width: 490px) {
@@ -2306,19 +2556,41 @@
       transform: translateY(-50%);
       pointer-events: none; /* Ensures the icon doesn't block input clicks */
     }
+    .mobile-nave-menu-ul {
+      width: 70%;
+      background-color: var(--primary-color);
+      color: white;
+    }
+
+    .gatway {
+      position: absolute;
+      top: 150px;
+      border-left: 0px solid transparent;
+      border-right: 200px solid transparent;
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-bottom: 0px solid orange;
+      width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
+    }
   }
 
   @media (max-width: 480px) {
-    .gatway {
-      position: absolute;
-      top: 0;
-      border-left: 0px solid transparent;
-      border-right: 200px solid transparent;
-      border-top: 260px solid var(--transparentblue); /* Flip the triangle upwards */
-      border-bottom: 0px solid orange;
-      width: 75%;
-    }
-
     .google-icon {
       position: absolute;
       right: 170px; /* Adjust as needed */
@@ -2333,19 +2605,41 @@
       object-fit: cover;
       object-position: fill;
     }
+    .mobile-nave-menu-ul {
+      width: 80%;
+      background-color: var(--primary-color);
+      color: white;
+    }
+
+    .gatway {
+      position: absolute;
+      top: 150px;
+      border-left: 0px solid transparent;
+      border-right: 200px solid transparent;
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-bottom: 0px solid orange;
+      width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
+    }
   }
 
   @media (max-width: 460px) {
-    .gatway {
-      position: absolute;
-      top: 0;
-      border-left: 0px solid transparent;
-      border-right: 200px solid transparent;
-      border-top: 250px solid var(--transparentblue); /* Flip the triangle upwards */
-      border-bottom: 0px solid orange;
-      width: 75%;
-    }
-
     .google-icon {
       position: absolute;
       right: 170px; /* Adjust as needed */
@@ -2373,28 +2667,72 @@
 
     .dgcargo-goods-cargo-bg-image-position {
       position: absolute;
-      bottom: -9px;
+      bottom: 0;
       padding: 0;
     }
 
     .dg-heading h1 {
       color: white;
-      font-size: 17px;
+      font-size: 22px;
       font-weight: 800;
-      padding: 14px;
+      padding: 24px;
       margin: 0;
+    }
+
+    .gatway {
+      position: absolute;
+      top: 150px;
+      border-left: 0px solid transparent;
+      border-right: 200px solid transparent;
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-bottom: 0px solid orange;
+      width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
     }
   }
 
   @media (max-width: 440px) {
     .gatway {
       position: absolute;
-      top: 0;
+      top: 150px;
       border-left: 0px solid transparent;
       border-right: 200px solid transparent;
-      border-top: 240px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
       border-bottom: 0px solid orange;
-      width: 75%;
+      width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
     }
 
     .google-icon {
@@ -2424,17 +2762,52 @@
       --subparaHeading: 27px;
       --subparagraph: 13px;
     }
+    .mobile-nave-menu-ul {
+      width: 80%;
+      background-color: var(--primary-color);
+      color: white;
+    }
+
+    .mobile-navbarfontColorSize-navmenu:hover {
+      background-color: #3ab54a;
+      clip-path: polygon(26% 10%, 100% 10%, 100% 100%, 10% 100%);
+      position: relative;
+      left: -82px;
+      padding-left: 100px;
+      color: white;
+    }
+
+    .Fast-Ride-Shipping-l-l-c {
+      padding: 540px 0px 100px 0px;
+    }
   }
 
   @media (max-width: 420px) {
     .gatway {
       position: absolute;
-      top: 0;
+      top: 150px;
       border-left: 0px solid transparent;
       border-right: 200px solid transparent;
-      border-top: 233px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
       border-bottom: 0px solid orange;
-      width: 75%;
+      width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
     }
 
     .google-icon {
@@ -2469,20 +2842,46 @@
 
     .comprehensive-Freight-Solutions-content {
       position: absolute;
-      top: -201px;
-      left: 30px;
+      top: -181px;
+      left: 22px;
+    }
+
+    .mobile-navbarfontColorSize-navmenu:hover {
+      background-color: #3ab54a;
+      clip-path: polygon(27% 10%, 100% 10%, 100% 100%, 10% 100%);
+      position: relative;
+      left: -90px;
+      padding-left: 100px;
+      color: white;
     }
   }
 
   @media (max-width: 410px) {
     .gatway {
       position: absolute;
-      top: 0;
+      top: 150px;
       border-left: 0px solid transparent;
       border-right: 200px solid transparent;
-      border-top: 225px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
       border-bottom: 0px solid orange;
-      width: 75%;
+      width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
     }
 
     .google-icon {
@@ -2522,12 +2921,29 @@
   @media (max-width: 390px) {
     .gatway {
       position: absolute;
-      top: 0;
+      top: 150px;
       border-left: 0px solid transparent;
       border-right: 200px solid transparent;
-      border-top: 223px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
       border-bottom: 0px solid orange;
       width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
     }
 
     .google-icon {
@@ -2550,29 +2966,47 @@
       --subparagraph: 13px;
     }
 
-    .gatway-postion {
-      position: absolute;
-      top: 34%;
-      left: 1%;
-    }
-
     .special-Expertise-icon {
       position: absolute;
       top: -28px;
       display: flex;
       justify-content: flex-end;
     }
+
+    .Our-Expertise-shaps {
+      clip-path: polygon(0% 364%, 100% -325%, 100% 100%, 0% 100%);
+      width: 100%;
+      height: 250px;
+      background-color: var(--ligt-green);
+    }
   }
 
   @media (max-width: 384px) {
     .gatway {
       position: absolute;
-      top: 0;
+      top: 150px;
       border-left: 0px solid transparent;
       border-right: 200px solid transparent;
-      border-top: 215px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
       border-bottom: 0px solid orange;
       width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
     }
 
     .google-icon {
@@ -2602,8 +3036,8 @@
 
     .comprehensive-Freight-Solutions-content {
       position: absolute;
-      top: -201px;
-      left: 30px;
+      top: -181px;
+      left: 22px;
     }
 
     .Get-to-Know-Us-heading h1 {
@@ -2623,12 +3057,29 @@
   @media (max-width: 374px) {
     .gatway {
       position: absolute;
-      top: 0;
+      top: 150px;
       border-left: 0px solid transparent;
       border-right: 200px solid transparent;
-      border-top: 210px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
       border-bottom: 0px solid orange;
       width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
     }
 
     .google-icon {
@@ -2638,17 +3089,38 @@
       transform: translateY(-50%);
       pointer-events: none; /* Ensures the icon doesn't block input clicks */
     }
+
+    .Fast-Ride-Shipping-l-l-c {
+      padding: 500px 0px 100px 0px;
+    }
   }
 
   @media (max-width: 358px) {
     .gatway {
       position: absolute;
-      top: 0;
+      top: 150px;
       border-left: 0px solid transparent;
       border-right: 200px solid transparent;
-      border-top: 200px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
       border-bottom: 0px solid orange;
       width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
     }
 
     .google-icon {
@@ -2660,7 +3132,7 @@
     }
 
     .Fast-Ride-Shipping-l-l-c {
-      padding: 800px 0px 100px 0px;
+      padding: 500px 0px 100px 0px;
     }
 
     .videosdiv {
@@ -2673,7 +3145,7 @@
       position: absolute;
       top: -201px;
       border-left: 0px solid transparent;
-      border-right: 134px solid transparent;
+      border-right: 65px solid transparent;
       border-top: 0px solid transparent; /* Flip the triangle upwards */
       border-bottom: 300px solid var(--transparentblue);
       width: 90%;
@@ -2681,20 +3153,51 @@
 
     .comprehensive-Freight-Solutions-content {
       position: absolute;
-      top: -201px;
-      left: 30px;
+      top: -181px;
+      left: 22px;
+    }
+
+    .mobile-nave-menu-ul {
+      width: 82%;
+      background-color: var(--primary-color);
+      color: white;
+    }
+    .mobile-navbarfontColorSize-navmenu:hover {
+      background-color: #3ab54a;
+      clip-path: polygon(27% 10%, 100% 10%, 100% 100%, 10% 100%);
+      position: relative;
+      left: -82px;
+      padding-left: 100px;
+      color: white;
     }
   }
 
   @media (max-width: 320px) {
     .gatway {
       position: absolute;
-      top: 0;
+      top: 150px;
       border-left: 0px solid transparent;
       border-right: 200px solid transparent;
-      border-top: 200px solid var(--transparentblue); /* Flip the triangle upwards */
+      border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
       border-bottom: 0px solid orange;
       width: 80%;
+    }
+
+    .gatway-postion {
+      position: absolute;
+      top: 70%;
+      left: 1%;
+    }
+
+    .slides {
+      display: flex;
+      width: 300%; /* 3 banners = 300% */
+      animation: slideAnimation 12s infinite;
+      height: 400px;
+    }
+
+    .baner-image-slider-height {
+      height: 250px;
     }
 
     .google-icon {
@@ -2706,7 +3209,7 @@
     }
 
     .Fast-Ride-Shipping-l-l-c {
-      padding: 855px 0px 100px 0px;
+      padding: 510px 0px 100px 0px;
     }
 
     .dgcargo-goods-bg-img {
@@ -2716,16 +3219,8 @@
 
     .dgcargo-goods-cargo-bg-image-position {
       position: absolute;
-      bottom: -9px;
+      bottom: 0;
       padding: 0;
-    }
-
-    .dg-heading h1 {
-      color: white;
-      font-size: 15px;
-      font-weight: 800;
-      padding: 14px;
-      margin: 0;
     }
 
     .Get-to-Know-Us-heading h1 {
@@ -2742,10 +3237,17 @@
     }
   }
 
+
+
+
+
 .navbarfontColorSize.active {
     color: #3ab54a !important;
     font-weight: bold;
 }
 
-
+.mobile-navbarfontColorSize-navmenu.active{
+    color: #3ab54a !important;
+    font-weight: bold;
+}
 /*......................*/

@@ -19,7 +19,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 The-Fastride-Story-heading pb-4">
-            <h1 class="text-center">The Fastride Story</h1>
+            <h1 class="text-md-center text-start">The Fastride Story</h1>
           </div>
           <div class="col-12 The-Fastride-Story-heading-paragraph">
             <p>
@@ -43,7 +43,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 The-Fastride-Story-heading pb-4">
-            <h1 class="text-center">A Journey Built on Trust</h1>
+            <h1 class="text-md-center text-start">A Journey Built on Trust</h1>
           </div>
           <div class="col-12 The-Fastride-Story-heading-paragraph">
             <p>
@@ -77,7 +77,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 Our-Leadership-heading pb-4">
-            <h1 class="text-center">Our Leadership</h1>
+            <h1 class="text-md-center text-start">Our Leadership</h1>
           </div>
           <div class="col-12 Our-Leadership-heading-paragraph">
             <p>
@@ -93,7 +93,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 Our-Leadership-heading pb-4">
-            <h1 class="text-center">The Fastride Team</h1>
+            <h1 class="text-md-center text-start">The Fastride Team</h1>
           </div>
           <div class="col-12 Our-Leadership-heading-paragraph">
             <p>
@@ -160,45 +160,7 @@
         </div>
       </div>
     </section>
-    <!-- Our Commitment -->
-    <!-- <section class="position-relative">
-      <div>
-        <img
-          src="{{asset('assets/images/Discover-Us/Banner 1920 x 740 1.jpg')}}"
-          width="100%"
-          alt=""
-          srcset=""
-        />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div
-            class="col-md-6 col-12 position-absolute top-0 Our-Commitment d-flex justify-content-center align-items-center"
-          >
-            <div class="col-10">
-              <div>
-                <h1>
-                  Our Commitment <br />
-                  to Clients
-                </h1>
-              </div>
-              <div>
-                <p>
-                  At Fastride, we don't just deliver shipments – we provide
-                  peace of mind. Our team of experts goes above and beyond to
-                  ensure timely and safe delivery of every consignment, whether
-                  it’s a time-sensitive air shipment or oversized project cargo.
-                  We understand that every client has unique needs, and we are
-                  always here to offer personalized advice and innovative
-                  solutions.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-6"></div>
-        </div>
-      </div>
-    </section> -->
+
     <section
       class="position-relative d-flex justify-content-center align-items-center"
     >
@@ -208,6 +170,7 @@
           width="100%"
           alt=""
           srcset=""
+          class="Our-Commitment-img"
         />
       </div>
       <div class="container position-absolute top-0" style="height: 100%">
@@ -366,7 +329,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-12 py-2">
+          <div class="col-md-6 col-12 py-2 mt-md-0 mt-4">
             <div
               class="col-12 d-flex justify-content-center align-items-center star-height"
             >
@@ -413,7 +376,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <h1 class="text-center pb-3">Get to Know Us</h1>
+            <h1 class="text-md-center text-start pb-3">Get to Know Us</h1>
           </div>
           <div class="col-12 pb-3">
             <p>
@@ -423,7 +386,7 @@
               or a single parcel, we treat every delivery as our top priority.
             </p>
           </div>
-          <div class="d-flex justify-content-center align-items-center">
+          <div class="d-flex justify-content-md-center justify-content-start align-items-center">
             <a href=""> Contact Us</a>
           </div>
         </div>

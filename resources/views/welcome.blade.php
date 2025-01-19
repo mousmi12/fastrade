@@ -5,172 +5,224 @@
     @include('header')
 
 </head>
+<style>
 
+    /* Make image transitions faster and smoother */
+.hidden-up {
+    opacity: 0;
+    transform: translateY(20px); /* Reduced from 100% to 20px for subtler movement */
+    transition: all 0.5s ease-out; /* Reduced from 1s to 0.5s */
+}
+
+.show-up {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Other elements can keep their original timing */
+.hidden {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.hidden-right {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Remove blur effect for better performance */
+.hidden, .hidden-right, .hidden-up {
+    filter: none;
+}
+
+
+.hidden-up {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(100%);
+    transition: all 0.1s;
+}
+
+
+.show-up {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+/* Add staggered delays for list items */
+.stagger > *:nth-child(1) { transition-delay: 0ms; }
+.stagger > *:nth-child(2) { transition-delay: 200ms; }
+.stagger > *:nth-child(3) { transition-delay: 400ms; }
+.stagger > *:nth-child(4) { transition-delay: 600ms; }
+
+/* Optimize hover effect */
+.hover-scale {
+    transition: transform 0.3s ease-out;
+}
+
+.hover-scale:hover {
+    transform: scale(1.03); /* Reduced from 1.05 for subtler effect */
+}
+
+@media (max-width: 768px) {
+    .hidden-up {
+        transform: translateY(10px); /* Even smaller movement on mobile */
+    }
+}
+
+</style>
 <body>
     <div>
         <!-- Nav Menu section -->
         @include('navmenu')
 
-        <!-- Gateway -->
-        <!-- <section>
-            <div class="pt-5 position-relative">
-                <div>
-                    <img
-                        src="{{asset('assets/images/Banner 1920 x 800.jpg')}}"
-                        width="100%"
-                        alt=""
-                        srcset="" />
-                </div>
-                <div class="">
-                    <div class="gatway"></div>
-                    <div class="d-flex justify-content-start align-items-center">
-                        <div class="gatway-postion container">
-                            <div class="gatwayHeading">
-                                <h1 style="font-weight: bold;">Your Gateway to</h1>
-                                <h1 style="font-weight: bold;">Global Freight</h1>
-                                <h1 style="font-weight: bold;">Solutions</h1>
-                            </div>
-                            <div>
-                                <p class="gatway-pargraph">
-                                    Connecting the Middle East to global markets with precision and care. Fastride delivers excellence in every shipment.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
 
         <section class="slider">
-            <!-- Banner 1 -->
-            <div class="slides">
-                <div class="banner-section">
-                    <div class="pt-5 position-relative">
-                        <div>
-                            <img
-                                src="{{asset('assets/images/HomeBanner 1920 x 800 _ 1.jpg')}}"
-                                width="100%"
-                                alt="Banner 1" />
-                        </div>
-                        <div>
-                            <div class="gatway"></div>
-                            <div class="d-flex justify-content-start align-items-center">
-                                <div class="gatway-postion container">
-                                    <div class="gatwayHeading">
-                                        <h1>Your Gateway to</h1>
-                                        <h1>Global Freight</h1>
-                                        <h1>Solutions</h1>
-                                    </div>
-                                    <div>
-                                        <p class="gatway-pargraph">
-                                            Connecting the Middle East to global markets with precision and care. Fastride delivers excellence in every shipment.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        <!-- Banner 1 -->
+        <div class="slides">
+          <div class="banner-section">
+            <div class="pt-5 position-relative">
+              <div>
+                <img
+                  src="{{asset('assets/images/HomeBanner 1920 x 800 _ 1.jpg')}}"
+                  width="100%"
+                  alt="Banner 1"
+                  class="baner-image-slider-height"
+                />
+              </div>
+              <div>
+                <div class="gatway"></div>
+                <div class="d-flex justify-content-start align-items-center">
+                  <div class="gatway-postion container">
+                    <div class="gatwayHeading">
+                      <h1>Your Gateway to</h1>
+                      <h1>Global Freight</h1>
+                      <h1>Solutions</h1>
                     </div>
-                </div>
-                <!-- Banner 2 -->
-                <div class="banner-section">
-                    <div class="pt-5 position-relative">
-                        <div>
-                            <img
-                                src="{{asset('assets/images/Banner 1920 x 800 _ all _ 2.jpg')}}"
-                                width="100%"
-                                alt="Banner 2" />
-                        </div>
-                        <div class="">
-                            <div class="gatway"></div>
-                            <div class="d-flex justify-content-start align-items-center">
-                                <div class="gatway-postion container">
-                                    <div class="gatwayHeading">
-                                        <h1>Efficient</h1>
-                                        <h1>Shipping Services</h1>
-                                    </div>
-                                    <div>
-                                        <p class="gatway-pargraph">
-                                            Nulla facilisi. Aenean vestibulum elit in ligula
-                                            tristique, non ultricies nisi placerat.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div>
+                      <p class="gatway-pargraph">
+                        Aliquam tincidunt turpis et ex fringilla, vitae eleifend
+                        tortor varius. Sed blandit tellus at ipsum elementum
+                        rhoncus
+                      </p>
                     </div>
+                  </div>
                 </div>
-                <!-- Banner 3 -->
-                <div class="banner-section">
-                    <div class="pt-5 position-relative">
-                        <div>
-                            <img
-                                src="{{asset('assets/images/HomeBanner 1920 x 800 _ 2.jpg')}}"
-                                width="100%"
-                                alt="Banner 3" />
-                        </div>
-                        <div class="">
-                            <div class="gatway"></div>
-                            <div class="d-flex justify-content-start align-items-center">
-                                <div class="gatway-postion container">
-                                    <div class="gatwayHeading">
-                                        <h1>Connecting</h1>
-                                        <h1>The World</h1>
-                                    </div>
-                                    <div>
-                                        <p class="gatway-pargraph">
-                                            Phasellus convallis magna ac semper faucibus. Curabitur
-                                            euismod nisl vel massa sagittis volutpat.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-
+          </div>
+          <!-- Banner 2 -->
+          <div class="banner-section">
+            <div class="pt-5 position-relative">
+              <div>
+                <img
+                  src="{{asset('assets/images/Banner 1920 x 800 _ all _ 2.jpg')}}"
+                  width="100%"
+                  alt="Banner 2"
+                  class="baner-image-slider-height"
+                />
+              </div>
+              <div class="">
+                <div class="gatway"></div>
+                <div class="d-flex justify-content-start align-items-center">
+                  <div class="gatway-postion container">
+                    <div class="gatwayHeading">
+                      <h1>Efficient</h1>
+                      <h1>Shipping Services</h1>
+                    </div>
+                    <div>
+                      <p class="gatway-pargraph">
+                        Nulla facilisi. Aenean vestibulum elit in ligula
+                        tristique, non ultricies nisi placerat.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Banner 3 -->
+          <div class="banner-section">
+            <div class="pt-5 position-relative">
+              <div>
+                <img
+                  src="{{asset('assets/images/HomeBanner 1920 x 800 _ 2.jpg')}}"
+                  width="100%"
+                  alt="Banner 3"
+                  class="baner-image-slider-height"
+                />
+              </div>
+              <div class="">
+                <div class="gatway"></div>
+                <div class="d-flex justify-content-start align-items-center">
+                  <div class="gatway-postion container">
+                    <div class="gatwayHeading">
+                      <h1>Connecting</h1>
+                      <h1>The World</h1>
+                    </div>
+                    <div>
+                      <p class="gatway-pargraph">
+                        Phasellus convallis magna ac semper faucibus. Curabitur
+                        euismod nisl vel massa sagittis volutpat.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
         <!-- why choose FASTRIDE -->
         <section class="why-choose">
             <div>
                 <div class="row container-fluid">
                     <div class="col-md-6 col-12 cols">
-                        <div>
+                        <div  >
                             <img
                                 src="{{asset('assets/images/IMG 910 x 1285.png')}}"
                                 width="100%"
                                 alt=""
+ class="hidden-up hover-scale"
                                 srcset="" />
                         </div>
                     </div>
                     <div
                         class="col-md-6 col-12 cols d-flex justify-content-center align-items-center">
                         <div class="col-10">
-                            <div class="why-choose-heading">
+                            <div class="why-choose-heading hidden">
                                 <h1>Why Choose</h1>
                                 <h1>Fastride Shipping LLC?</h1>
                             </div>
                             <div>
-                                <ul>
-                                    <li>
+                                <ul class="stagger">
+                                    <li class="hidden">
                                         <label>Strategic Location:</label> Located in the heart of
                                         the UAE’s logistics hub, Fastride Shipping LLC connects
                                         the Middle East with key international markets, offering a
                                         seamless transit experience
                                     </li>
-                                    <li>
+                                    <li class="hidden">
                                         <label>Industry Expertise:</label> We bring deep industry
                                         knowledge to every project, ensuring your shipments are
                                         handled with the utmost care and precision
                                     </li>
-                                    <li>
+                                    <li class="hidden">
                                         <label>Comprehensive Solutions:</label> From dangerous
                                         goods and project cargo to luxury vehicle movement, we
                                         provide specialized services that cover all aspects of
                                         freight forwarding
                                     </li>
-                                    <li>
+                                    <li class="hidden">
                                         <label> Customer-Centric Approach:</label> We pride
                                         ourselves on understanding the needs of our clients,
                                         offering end-to-end support to ensure your goods reach
@@ -185,22 +237,25 @@
         </section>
 
         <!-- Our Key Destinations -->
+
+
         <section class="position-relative Our-Key-Destinations">
             <div class="Our-Key-Destinations-bg-img">
                 <img
                     src="{{asset('assets/images/IMG 1920 x 1280.jpg')}}"
                     width="100%"
                     alt=""
+                    class="hidden-up"
                     srcset="" />
             </div>
             <div class="d-flex justify-content-center">
                 <div class="container position-absolute top-0">
                     <div class="Our-Key-Destinations-heading pt-5">
                         <div>
-                            <h1 class="text-center">Our Key Destinations and Reach</h1>
+                            <h1 class="text-md-center text-start hidden ">Our Key Destinations and Reach</h1>
                         </div>
-                        <div class="d-flex justify-content-center align-items-center">
-                            <p class="Our-Key-Destinations-paragraph">
+                        <div class="d-flex justify-content-center align-items-center ">
+                            <p class="Our-Key-Destinations-paragraph hidden ">
                                 Fastride Shipping is strategically positioned to serve both
                                 local and international markets. We specialize in inland
                                 transportation across the UAE and road freight services
@@ -221,30 +276,25 @@
                                 <div
                                     class="col-md-5 col-12 cols d-flex justify-content-center align-items-center">
                                     <div class="col-10">
-                                        <div class="why-choose-heading">
+                                        <div class="why-choose-heading hidden" >
                                             <h1>Our Values</h1>
                                         </div>
                                         <div>
-                                            <ul>
-                                                <li>
+                                            <ul class="ps-md-5 ps-0 stagger">
+                                                <li class="hidden">
                                                     <label>Commitment to Excellence:</label>
                                                     Precision and care in every shipment
                                                 </li>
-                                                <li>
+                                                <li class="hidden">
                                                     <label> Customer-Centric Approach: </label>
                                                     Your satisfaction drives us forward
                                                 </li>
-                                                <li>
+                                                <li class="hidden">
                                                     <label> Global Connectivity: </label> Seamless
                                                     logistics with a worldwide network.
                                                 </li>
-                                                <!-- <li>
-                            <label> Customer-Centric Approach:</label> We pride
-                            ourselves on understanding the needs of our clients,
-                            offering end-to-end support to ensure your goods reach
-                            their destination safely and on time.
-                          </li> -->
-                                                <p class="pt-4">
+
+                                                <p class="pt-4 hidden">
                                                     With Fastride Shipping, your logistics needs are
                                                     handled with the highest level of professionalism
                                                     and expertise. Trust us to deliver success - one
@@ -292,11 +342,11 @@
                             <div class="col-md-5 col-12 cols">
                                 <div>
                                     <div>
-                                        <h1>Fast Ride Shipping L.L.C</h1>
+                                        <h1 class="text-md-start text-center">Fast Ride Shipping L.L.C</h1>
                                     </div>
                                     <div class="star">
-                                        <div class="pt-5 pb-4">
-                                            <div>
+                                        <div class="pt-md-5 pt-3 pb-4">
+                                            <div class="text-md-start text-center">
                                                 <i class="star-number"> 4.3 </i>
                                                 <i
                                                     class="bi bi-star-fill Fast-Ride-Shipping-l-l-c-icons"></i>
@@ -309,13 +359,13 @@
                                                 <i
                                                     class="bi bi-star-half Fast-Ride-Shipping-l-l-c-icons"></i>
                                             </div>
-                                            <p>Shipping service in Dubai, United Arab Emirates</p>
+                                            <p class="text-md-start text-center">Shipping service in Dubai, United Arab Emirates</p>
 
-                                            <div class="address-phone">
+                                            <div class="address-phone text-md-start text-center">
                                                 <label>Address : </label> Deira - Dubai - United Arab
                                                 Emirates
                                             </div>
-                                            <div class="address-phone">
+                                            <div class="address-phone text-md-start text-center">
                                                 <label>Phone: </label> +971 55 217 8868
                                             </div>
                                         </div>
@@ -392,6 +442,7 @@
                                         alt=""
                                         srcset=""
                                         width="100%"
+                                        height="100%"
                                         class="rounded-start-5" />
                                 </div>
                                 <div
@@ -414,10 +465,10 @@
         <!-- projects We’ve Complete -->
         <section>
             <div class="container mt-5 mb-5">
-                <div class="row">
+                <div >
                     <div class="col-12 pt-3 pb-3 project-heading">
                         <div>
-                            <h1 class="text-center">Connecting Continents, Creating Opportunities</h1>
+                            <h1 class="text-md-center text-start">Connecting Continents, Creating Opportunities</h1>
                             <!-- <h1 class="text-center">Our story</h1> -->
                         </div>
                     </div>
@@ -626,69 +677,19 @@
             </div>
         </section>
 
-        <!-- trak your shipment -->
-        <!-- <section class="trak-your-shipment d-flex align-items-center">
-            <div class="container track-your-shippment-baground">
-                <div class="row rowheight">
-                    <div
-                        class="col-md-6 col-12 cols d-flex justify-content-center align-items-center">
-                        <div class="col-md-10 col-12">
-                            <div>
-                                <h1>Track Your Shipment</h1>
-                            </div>
-                            <div>
-                                <p class="track-your-shippment-pargraph">
-                                    Monitor the status of your shipment in real time. Simply enter your tracking number, and stay updated on your cargo’s journey - no matter where it is.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-12 cols d-flex justify-content-center align-items-center">
-                        <div class="track-your-shippment-orders">
-                            <div
-                                class="d-flex d-flex justify-content-center align-items-center">
-                                <div class="col-10 d-flex orderfontaws pb-3">
-                                    <div class="me-2">Order ID</div>
-                                    <div class="ms-5">AWD</div>
-                                </div>
-                            </div>
-                            <div class="d-flex justify-content-center align-items-center">
-                                <form action="" class="col-10">
-                                    <div>
-                                        <div class="mb-3">
-                                            <input
-                                                type="text"
-                                                id="disabledTextInput"
-                                                class="form-control forminputbuttonheight"
-                                                placeholder=" Enter You Order ID" />
-                                        </div>
-                                        <div>
-                                            <button
-                                                type="submit"
-                                                class="formbuttoncolor col-12 forminputbuttonheight">
-                                                Submit
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
+
 
         <!-- trak your shipment -->
-      <section class="trak-your-shipment d-flex align-items-center">
+          <section class="trak-your-shipment d-flex align-items-center">
         <div class="container track-your-shippment-baground">
           <div class="row rowheight">
             <div
               class="col-md-6 col-12 cols d-flex justify-content-center align-items-start"
             >
               <div class="col-md-10 col-12">
-                <div class="pt-4">
+                <div class="pt-4 d-md-block d-flex">
                   <h1>Track Your</h1>
-                  <h1>Shipment</h1>
+                  <h1 class="ps-md-0 ps-2">Shipment</h1>
                 </div>
                 <div>
                   <p class="track-your-shippment-pargraph">
@@ -743,6 +744,36 @@
 
     <!-- js script link bootstrap  -->
     @include('js')
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                if (entry.target.classList.contains('hidden-up')) {
+                    entry.target.classList.add('show-up');
+                } else {
+                    entry.target.classList.add('show');
+                }
+            }
+            // Optional: remove classes when scrolling back up
+            // else {
+            //     if (entry.target.classList.contains('hidden-up')) {
+            //         entry.target.classList.remove('show-up');
+            //     } else {
+            //         entry.target.classList.remove('show');
+            //     }
+            // }
+        });
+    }, {
+        threshold: 0.1 // Trigger when 10% of the element is visible
+    });
+
+    // Observe all elements with animation classes
+    document.querySelectorAll('.hidden, .hidden-right, .hidden-up').forEach((el) => {
+        observer.observe(el);
+    });
+});
+</script>
 </body>
 
 </html>

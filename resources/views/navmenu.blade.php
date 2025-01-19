@@ -42,13 +42,7 @@
 
 
                         </div>
-                        <!-- <a
-                        href="https://g.co/kgs/MQCwUYn"
-                        target="_blank"
-                      >
 
-                      <img src="{{asset('assets/images/google.svg')}}" alt="Google Business" class="google-icon" />
-                      </a> -->
                     </div>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -124,68 +118,122 @@
     </nav>
 </section>
 
-<!-- navmenu mobile -->
-<section class="bg-white col-12 position-fixed z-3 nav-mobile">
-    <nav class="navbar navbar-expand-lg bg-white container-fluid">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img
-                    src="{{asset('assets/images/LOGO.png')}}"
-                    class="navbarimg"
-                    alt=""
-                    srcset="" /></a>
+
+ <!-- navmenu mobile change mobile design-->
+ <section class="bg-white col-12 position-fixed z-3 nav-mobile">
+        <nav class="navbar navbar-expand-lg container-fluid">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="{{asset('assets/images/LOGO.png')}}"
+                class="navbarimg"
+                alt=""
+                srcset=""
+            /></a>
             <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item m-auto">
+            <div class="navbar-collapse">
+              <ul
+                class="collapse navbar-nav ms-auto mobile-nave-menu-ul"
+                id="navbarNavDropdown"
+              >
+                <li class="nav-item mobile-navbarfontColorSize">
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-navmenu {{ Request::is('/') ? 'active' : '' }}"
+                    aria-current="page"
+                    href="{{ url('/') }}"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item mobile-navbarfontColorSize">
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-navmenu {{ Request::is('discoverus') ? 'active' : '' }}"
+                    href="{{ route('discoverus') }}">Discover us</a>
+                </li>
+                <li class="nav-item mobile-navbarfontColorSize">
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-navmenu {{ Request::is('services') ? 'active' : '' }}"
+                    href="{{ route('services') }}">Services</a>
+                                 </li>
+                <li class="nav-item mobile-navbarfontColorSize">
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-navmenu {{ Request::is('dgcargo') ? 'active' : '' }}"
+                    href="{{ route('dgcargo') }}">DG Cargo</a>
+                </li>
+                <li class="nav-item mobile-navbarfontColorSize">
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-navmenu {{ Request::is('connectus') ? 'active' : '' }}"
+                    href="{{ route('connectus') }}">Let's connect</a>
+                </li>
+                <li
+                  class="nav-item d-flex justify-content-around mobile-navbarfontColorSize-socialmedia-bg"
+                >
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-socialmedia"
+                    href="https://www.facebook.com/share/1EnwG1qtYC/"
+
+                    ><i class="bi bi-facebook"></i
+                  ></a>
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-socialmedia"
+                    href="https://www.instagram.com/fastrideshipping/"
+                    ><i class="bi bi-instagram"></i
+                  ></a>
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-socialmedia"
+                    href="#"
+                    ><i class="bi bi-twitter-x"></i
+                  ></a>
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-socialmedia"
+                    href="#"
+                    ><i class="bi bi-youtube"></i
+                  ></a>
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-socialmedia"
+                    href="https://ae.linkedin.com/company/fastride-shipping-llc"
+                    ><i class="bi bi-linkedin"></i
+                  ></a>
+                </li>
+                <li class="nav-item m-3 m-auto py-2">
+                  <a class="navbar-brand text-white" href="https://wa.me/971552178868"
+                    ><i class="bi bi-whatsapp mobile-whatsappColorfontsize"></i>
+                    Chat with us</a
+                  >
+                </li>
+                <!-- <li class="nav-item dropdown">
                         <a
-                            class="nav-link navbarfontColorSize  {{ Request::is('/') ? 'active' : '' }}"
-                            aria-current="page"
-                            href="{{ url('/') }}">Home</a>
-                    </li>
-                    <li class="nav-item m-auto">
-                        <a class="nav-link navbarfontColorSize {{ Request::is('discoverus') ? 'active' : '' }}" href="{{ route('discoverus') }}">Discover us</a>
-                    </li>
-                    <li class="nav-item m-auto">
-                        <a class="nav-link navbarfontColorSize  {{ Request::is('services') ? 'active' : '' }}" href="{{ route('services') }}">Services</a>
-                    </li>
-                    <li class="nav-item m-auto">
-                        <a class="nav-link navbarfontColorSize" href="{{ route('dgcargo') }}">DG Cargo</a>
-                    </li>
-                    <li class="nav-item m-auto">
-                        <a class="nav-link navbarfontColorSize" href="{{ route('connectus') }}">Let's connect</a>
-                    </li>
-                    <li class="nav-item whatsappColor m-3">
-                        <a class="navbar-brand text-white" href="#"><i class="bi bi-whatsapp whatsappColorfontsize"></i></a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Dropdown link
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </li>
-                      </ul>
-                    </li> -->
-                </ul>
+                          class="nav-link dropdown-toggle"
+                          href="#"
+                          role="button"
+                          data-bs-toggle="dropdown"
+                          aria-expanded="false"
+                        >
+                          Dropdown link
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                          </li>
+                        </ul>
+                      </li> -->
+              </ul>
             </div>
-        </div>
-    </nav>
-</section>
+          </div>
+        </nav>
+      </section>
+
+
+
+

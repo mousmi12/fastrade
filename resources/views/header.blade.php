@@ -16,6 +16,7 @@
     />
 
     <link rel="stylesheet" href="{{asset('assets/css/style.css')}}" />
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.1/dist/aos.css" />
 
     <title>FASTRIDE</title>
 

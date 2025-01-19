@@ -13,7 +13,7 @@
           srcset=""
         />
       </div>
-      <div class="dgcargo-goods-cargo-bg-image-position">
+      <div class="dgcargo-goods-cargo-bg-image-position d-md-block d-none">
         <div class="dg-heading d-flex justify-content-start align-items-center">
           <h1 class="dgcargo-goods-bg">DANGEROUS GOODS CARGO</h1>
           <img
@@ -25,14 +25,32 @@
           />
         </div>
       </div>
+      <!-- change mobile design add new div @start-->
+      <div class="dgcargo-goods-cargo-bg-image-position d-md-none d-block">
+        <div class="dg-heading d-flex justify-content-start align-items-center">
+          <h1 class="dgcargo-goods-bg-mobile">
+            DANGEROUS <br />
+            GOODS CARGO
+          </h1>
+        </div>
+
+        <img
+          src="{{asset('assets/images/services/DG.png')}}"
+          class="dgcargo-goods-bg-img-mobile"
+          width="22%"
+          alt=""
+          srcset=""
+        />
+      </div>
+      <!-- change mobile design add new div @end-->
     </section>
 
     <!-- Safe, Compliant -->
     <section class="safe-Compliant">
       <div class="container">
         <div class="safe-Compliant-heading pb-4">
-          <h1 class="text-center">Safe, Compliant, and Reliable</h1>
-          <h1 class="text-center">Dangerous Goods Shipping</h1>
+          <h1 class="text-md-center text-start">Safe, Compliant, and Reliable</h1>
+          <h1 class="text-md-center text-start">Dangerous Goods Shipping</h1>
         </div>
         <div class="safe-Compliant-heading-paragraph">
           <p>
@@ -54,7 +72,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-center What-We-Handle-heading">What We Handle</h1>
+            <h1 class="text-md-center text-start What-We-Handle-heading">What We Handle</h1>
           </div>
           <div class="col-md-3 col-12">
             <div class="d-flex justify-content-center align-items-center">
@@ -72,7 +90,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3 col-12 border-white border-end border-start">
+          <div class="col-md-3 col-12 border-white border-end border-start border-sm-bottom">
             <div class="d-flex justify-content-center align-items-center">
               <img
                 src="{{asset('assets/images/DG-cargo/industrial machinery.svg')}}"
@@ -87,7 +105,7 @@
               </p>
             </div>
           </div>
-          <div class="col-md-3 col-12 border-white border-end">
+          <div class="col-md-3 col-12 border-white border-end border-sm-top">
             <div class="d-flex justify-content-center align-items-center">
               <img
                 src="{{asset('assets/images/DG-cargo/engine.svg')}}"
@@ -119,16 +137,44 @@
         <div class="container Perfumes">
           <div class="row">
             <div class="col-md-12">
-              <h1 class="text-center What-We-Handle-heading">
+              <h1 class="text-md-center text-start What-We-Handle-heading">
                 Perfumes and Fragrances
               </h1>
             </div>
-            <div class="col-md-6 col-12">
+            <!-- change mobile design add new div copy row flex-md-row flex-column-reverse @ start div -->
+            <div class="row flex-md-row flex-column-reverse">
+              <div class="col-md-6 col-12">
+                <div class="d-flex justify-content-center align-items-center">
+                  <img
+                    src="{{asset('assets/images/DG-cargo/722 x 454.jpg')}}"
+                    alt=""
+                    srcset=""
+                  />
+                </div>
+              </div>
+              <div class="col-md-6 col-12">
+                <p>
+                  Fastride specializes in the seamless, safe, and compliant
+                  movement of perfumes and fragrances worldwide. Our services
+                  cover both the procurement and export of perfumes. For some
+                  clients, we coordinate directly with perfume manufacturers,
+                  handling the complete process of purchasing and shipping the
+                  goods internationally. For other clients, who source their
+                  perfumes independently, Fastride focuses solely on the safe
+                  export of their products. Regardless of the process, we ensure
+                  every shipment adheres to the highest safety, compliance, and
+                  regulatory standards, handling perfumes with precision and
+                  care.
+                </p>
+              </div>
+            </div>
+            <!-- change mobile design @ copy end div ^-->
+            <!-- <div class="col-md-6 col-12">
               <div class="d-flex justify-content-center align-items-center">
                 <img src="{{asset('assets/images/DG-cargo/722 x 454.jpg')}}" alt="" srcset="" />
               </div>
-            </div>
-            <div class="col-md-6 col-12">
+            </div> -->
+            <!-- <div class="col-md-6 col-12">
               <p>
                 Fastride specializes in the seamless, safe, and compliant
                 movement of perfumes and fragrances worldwide. Our services
@@ -141,7 +187,7 @@
                 every shipment adheres to the highest safety, compliance, and
                 regulatory standards, handling perfumes with precision and care.
               </p>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="img-Perfumes-shaps img-Perfumes-postion"></div>
@@ -149,7 +195,7 @@
     </section>
 
     <!-- Our Expertise -->
-    <section class="Our-Expertise position-relative">
+    <section class="Our-Expertise position-relative pb-md-0 pb-5">
       <div>
         <div class="row container-fluid">
           <div
@@ -189,7 +235,7 @@
               </div>
             </div>
           </div>
-          <div
+          <!-- <div
             class="col-md-6 col-12 cols d-flex justify-content-center align-items-center"
           >
             <div class="d-flex justify-content-center align-items-center">
@@ -207,7 +253,28 @@
           </div>
         </div>
       </div>
+    </section> -->
+    <div
+            class="col-md-6 col-12 cols d-flex justify-content-center align-items-center"
+          >
+            <div class="d-flex justify-content-center align-items-center">
+              <img
+                src="{{asset('assets/images/DG-cargo/740 x 790.jpg')}}"
+                alt=""
+                srcset=""
+                class="Our-Expertise-img"
+              />
+            </div>
+          </div>
+          <div
+            class="d-flex justify-content-end p-0 position-absolute bottom-0"
+          >
+            <div class="Our-Expertise-shaps"></div>
+          </div>
+        </div>
+      </div>
     </section>
+
 
     <!-- Why Trust Fastride -->
     <section
@@ -216,7 +283,7 @@
       <div class="Why-Trust-Fastride-container container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-center">Why Trust Fastride for Dangerous Goods?</h1>
+            <h1 class="text-md-center text-start">Why Trust Fastride for Dangerous Goods?</h1>
           </div>
           <div
             class="col-md-3 col-12 Why-Trust-Fastride-height d-flex justify-content-center align-items-center"

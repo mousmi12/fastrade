@@ -1,0 +1,2113 @@
+@font-face {
+    font-family: "CustomFont"; /* Name of the font you want to use */
+    src: url("../Fonts/Poppins-Regular.ttf") format("truetype"); /* Path to the font file */
+
+
+}
+@font-face {
+font-family: "CustomFont2"; /* Name of the font you want to use */
+    src: url("../Fonts/IBMPlexSans-Medium.ttf") format("truetype"); /* Path to the font file */
+}
+
+body {
+    background: white;
+    padding: 0;
+    margin: 0;
+    font-family: "CustomFont";
+}
+
+.slider {
+    display: flex;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 300%; /* 3 banners = 300% */
+    animation: slideAnimation 12s infinite;
+}
+
+.banner-section {
+    flex: 0 0 100%; /* Each banner takes up full width */
+    position: relative;
+}
+
+/* Keyframes for Horizontal Slide */
+@keyframes slideAnimation {
+    0% {
+        transform: translateX(0%); /* Show first banner */
+    }
+    33.33% {
+        transform: translateX(0%);
+    }
+    50% {
+        transform: translateX(-100%); /* Show second banner */
+    }
+    83.33% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(-200%); /* Show third banner */
+    }
+}
+
+:root {
+    --primary-color: #00568d;
+    --hover-color: #3ab54a;
+    --whatsapp-bg-color: #3ab54a;
+    --footerbgcolor: #a3d4ff;
+    --transparentblue: rgb(0, 86, 141, 0.5);
+    --mainheadingSize: 70px;
+    --paragraphsize: 17px;
+    --subparaHeading: 45px;
+    --subparagraph: 20px;
+    --lightfootercolor: #e3eff9;
+}
+
+.whatsappColor {
+    background: var(--whatsapp-bg-color);
+    border-left: 61px solid #004165;
+    border-right: 50px solid var(--hover-color);
+    border-top: 0px solid var(--hover-color);
+    border-bottom: 111px solid var(--hover-color);
+}
+
+.whatsappColor a {
+    margin: 0;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-lapscreen {
+    display: block;
+}
+
+.whatsappColorfontsize {
+    font-size: 25px;
+}
+
+.whatsappiconposition {
+    position: absolute;
+    right: 30px;
+    top: 78px;
+    color: white;
+}
+
+.navbarfontColorSize {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+    font-weight: 500;
+}
+
+.navbarimg {
+    width: 250px;
+}
+
+.navbarfontColorSize:hover {
+    color: var(--hover-color);
+    font-size: 22px;
+}
+
+.headr-location a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.navdivition {
+    display: block;
+    position: absolute;
+    top: 0px;
+    border-left: 0px solid transparent;
+    border-right: 100px solid transparent;
+    border-top: 150px solid white; /* Flip the triangle upwards */
+    border-bottom: 0px solid orange;
+    width: 30%;
+}
+
+.navimageposition {
+    position: absolute;
+    top: 20px;
+    left: 75px;
+}
+
+.navmenu-location {
+    background-color: #a3d4ff;
+    height: 40px;
+}
+
+/* footer section */
+
+.footer-section {
+    background: var(--footerbgcolor);
+    color: var(--primary-color);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--subparagraph);
+}
+.footer-section .container {
+    display: flex;
+}
+
+.footer-section .container .logo-image img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    width: 250px;
+}
+.footer-section .container .icons-colors a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.footer-section .container .icons-colors i {
+    margin-right: 30px;
+}
+.footer-section .container h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.footer-section .container .center-align li {
+    display: flex;
+    padding: 5px 0px;
+}
+.footer-section .container .center-align li a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.footer-section .container .center-align li i {
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+.footerparagraphwidth {
+    width: 70%;
+    text-align: justify;
+    text-align-last: left;
+}
+
+/* track your shippment */
+
+.trak-your-shipment {
+    height: 500px;
+}
+
+.trak-your-shipment h1 {
+    color: var(--hover-color);
+    font-size: var(--subparaHeading);
+}
+
+.trak-your-shipment p {
+    color: white;
+    font-size: var(--subparagraph);
+}
+
+.track-your-shippment-baground {
+    background: linear-gradient(to top, white 30%, rgba(255, 126, 95, 0) 30%),
+        url("../images/IMG\ 1660\ x\ 447.jpg") no-repeat center top;
+    background-size: 100%; /* First layer covers full, second layer covers bottom half */
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.rowheight {
+    height: 500px;
+}
+
+.track-your-shippment-orders {
+    width: 80%;
+    padding: 60px 0px;
+    background: var(--footerbgcolor);
+}
+
+.forminputbuttonheight {
+    height: 50px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.formbuttoncolor {
+    background: var(--primary-color);
+    border: none;
+    color: white;
+}
+
+.orderfontaws {
+    font-size: 25px;
+    color: var(--primary-color);
+}
+
+.track-your-shippment-pargraph {
+    width: 70%;
+    text-align: justify;
+    text-align-last: left;
+}
+
+/* why choose FASTRIDE */
+
+.why-choose-heading h1 {
+    font-size: var(--subparaHeading);
+    color: var(--primary-color);
+}
+.why-choose ul {
+    list-style-type: square;
+    text-align: justify;
+    text-align-last: left;
+    font-size: var(--subparagraph);
+}
+
+.why-choose li {
+    padding-top: 12px;
+}
+
+.why-choose label {
+    font-weight: 700;
+}
+
+.why-choose li::marker {
+    color: var(--hover-color);
+}
+
+/* <!-- projects We’ve Complete --> */
+.projects-paragraphalignment {
+    text-align: justify;
+    text-align-last: left;
+    font-size: var(--subparagraph);
+}
+
+.projects-icon-alignment {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+
+.project-heading h1 {
+    font-size: var(--subparaHeading);
+    color: var(--primary-color);
+}
+.projects-icons-size {
+    font-size: 40px;
+    color: var(--hover-color);
+    font-weight: 700;
+}
+
+.icons-heading h1 {
+    font-weight: 600;
+}
+
+/* Our-Key-Destinations-bg-img */
+/*
+  .Our-Key-Destinations-bg-img {
+    background: linear-gradient(to top, white 60%, rgba(255, 126, 95, 0) 60%),
+      url("../images/IMG\ 1920\ x\ 1280.jpg") no-repeat center top;
+    background-repeat: no-repeat;
+    width: 100%;
+  } */
+
+.Our-Key-Destinations {
+    background-color: var(--primary-color);
+}
+
+.Our-Key-Destinations-heading h1 {
+    font-size: var(--subparaHeading);
+    color: var(--hover-color);
+}
+
+.Our-Key-Destinations-paragraph {
+    font-size: var(--subparagraph);
+    color: white;
+    text-align: justify;
+    text-align-last: center;
+    width: 80%;
+}
+
+.Our-values ul {
+    list-style-type: square;
+    text-align: justify;
+    text-align-last: left;
+    font-size: var(--subparagraph);
+}
+
+.Our-values li {
+    padding-top: 12px;
+}
+
+.Our-values label {
+    font-weight: 700;
+}
+
+.Our-values li::marker {
+    color: var(--hover-color);
+}
+.Our-values-border {
+    border: 10px solid var(--hover-color);
+    padding: 0;
+    margin: 0;
+}
+
+.Our-values-postion {
+    position: absolute;
+    top: 700px;
+}
+
+/* Fast-Ride-Shipping-l-l-c */
+
+.Fast-Ride-Shipping-l-l-c {
+    padding: 350px 0px 100px 0px;
+}
+
+.Fast-Ride-Shipping-l-l-c-icons {
+    color: rgb(250, 226, 70);
+}
+
+.Fast-Ride-Shipping-l-l-c h1 {
+    font-size: var(--subparaHeading);
+    color: var(--hover-color);
+}
+
+.google-feed-back {
+    position: relative;
+}
+
+.Fast-Ride-Shipping-l-l-c-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.google-icon {
+    position: absolute;
+    right: 280px; /* Adjust as needed */
+    top: 36px;
+    transform: translateY(-50%);
+    pointer-events: none; /* Ensures the icon doesn't block input clicks */
+}
+
+.form-controlsss {
+    margin-top: 10px;
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8); /* Adjust to create space for the icon */
+}
+
+.star {
+    font-size: var(--subparagraph);
+    color: white;
+}
+
+.address-phone {
+    font-size: var(--subparagraph);
+    color: white;
+}
+
+.address-phone label {
+    font-weight: 400;
+}
+
+.map iframe {
+    width: 100%;
+    border: 0;
+    border-radius: 30px;
+    height: 350px;
+}
+
+.Fast-Ride-Shipping-img-paragraph p {
+    color: white;
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+}
+
+.Fast-Ride-Shipping-img-paragraph a {
+    text-decoration: none;
+    color: var(--hover-color);
+    font-size: var(--subparagraph);
+}
+
+.Fast-Ride-Shipping {
+    padding: 0px 0px 100px 0px;
+}
+
+.videosdiv {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: fill;
+}
+
+/* gatway */
+
+.gatway {
+    position: absolute;
+    top: 0;
+    border-left: 0px solid transparent;
+    border-right: 220px solid transparent;
+    border-top: 700px solid var(--transparentblue); /* Flip the triangle upwards */
+    border-bottom: 0px solid orange;
+    width: 55%;
+}
+
+/* .gatway:hover {
+    border-top: 0px solid white;
+  } */
+
+.gatwayHeading h1 {
+    font-size: var(--mainheadingSize);
+    color: var(--hover-color);
+    margin: 0;
+    font-weight: 600;
+}
+
+.gatway-pargraph {
+    width: 30%;
+    color: white;
+    font-size: var(--paragraphsize);
+    text-align: justify;
+    text-align-last: left;
+}
+
+.gatway-postion {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+/* ************************************ sevices-page ************************************************************ */
+/* comprehensive-Freight-Solutions */
+.comprehensive-Freight-Solutions {
+    position: absolute;
+    top: -360px;
+    border-left: 0px solid transparent;
+    border-right: 210px solid transparent;
+    border-top: 0px solid transparent; /* Flip the triangle upwards */
+    border-bottom: 400px solid var(--transparentblue);
+    width: 90%;
+}
+
+.comprehensive-Freight-Solutions-Heading h1 {
+    font-size: var(--mainheadingSize);
+    color: var(--whatsapp-bg-color);
+    margin: 0px;
+    font-weight: 600;
+}
+
+.comprehensive-Freight-Solutions-Paragraph p {
+    font-size: var(--subparagraph);
+    color: white;
+    width: 60%;
+    text-align: justify;
+    text-align-last: left;
+}
+
+.comprehensive-Freight-Solutions-content {
+    position: absolute;
+    top: -318px;
+    left: 100px;
+}
+
+.comprehensive-section {
+    position: relative;
+}
+
+/* aircraft */
+
+.air-Freight-section {
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+
+.air-Freight-img-position {
+    position: relative;
+    top: 20px;
+}
+.air-Freight-bg {
+    background: linear-gradient(
+        to bottom,
+        white 20%,
+        var(--lightfootercolor) 20%
+    );
+    color: black;
+    height: -webkit-fill-available;
+}
+.air-Freight-content h1 {
+    font-size: var(--subparaHeading);
+    font-weight: 600;
+}
+
+.air-Freight-content p {
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+}
+
+.air-Freight-content {
+    width: 80%;
+}
+
+.air-Freight-content p {
+    font-size: var(--subparagraph);
+}
+
+#chevron {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 6px;
+    height: 60px;
+    width: 100%;
+}
+#chevron:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    background: var(--lightfootercolor);
+    transform: skew(0deg, 6deg);
+}
+#chevron:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: var(--lightfootercolor);
+    transform: skew(0deg, -6deg);
+}
+
+/* special-Expertise-content */
+
+.special-Expertise-content {
+    background: #004165;
+    padding: 70px 0px;
+}
+
+.special-Expertise-heading h1 {
+    font-size: var(--subparaHeading);
+    font-weight: 600;
+    color: var(--whatsapp-bg-color);
+}
+
+.special-Expertise-paragraph p {
+    font-size: var(--subparagraph);
+    color: white;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.special-Expertise-icon {
+    position: absolute;
+    top: -100px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* project-cargo-movements */
+
+.project-cargo-movements-heading h1 {
+    font-size: var(--subparaHeading);
+    font-weight: 600;
+}
+
+.project-cargo-movements-paragraph p {
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+    width: 90%;
+}
+
+.project-cargo-movements-banner-padding {
+    padding: 0;
+}
+
+.project-cargo-movements-content-div {
+    width: 90%;
+}
+
+/* tailored-Logistics-solutions */
+
+.tailored-Logistics-solutions {
+    background-color: #004165;
+}
+
+.tailored-Logistics-solutions-content-heading h1 {
+    font-size: var(--subparaHeading);
+    font-weight: 600;
+    color: var(--whatsapp-bg-color);
+}
+
+.tailored-Logistics-solutions-padding {
+    padding: 0;
+}
+
+.tailored-Logistics-solutions ul {
+    list-style-type: square;
+    text-align: justify;
+    text-align-last: left;
+    font-size: var(--subparagraph);
+    color: white;
+}
+
+.tailored-Logistics-solutions li {
+    padding-top: 12px;
+}
+
+.tailored-Logistics-solutions label {
+    font-weight: 700;
+}
+
+.tailored-Logistics-solutions li::marker {
+    color: var(--hover-color);
+}
+
+/* ************************************ dgcargo ************************************************************ */
+.safe-Compliant {
+    padding: 100px 0px;
+}
+.safe-Compliant-heading h1 {
+    font-size: var(--subparaHeading);
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.safe-Compliant-heading-paragraph p {
+    font-size: var(--subparagraph);
+    text-align: justify;
+    text-align-last: left;
+}
+
+.Our-Expertise-heading h1 {
+    font-size: var(--subparaHeading);
+    color: var(--primary-color);
+    font-weight: 600;
+}
+.Our-Expertise ul {
+    list-style-type: square;
+    text-align: justify;
+    text-align-last: left;
+    font-size: var(--subparagraph);
+}
+
+.Our-Expertise li {
+    padding-top: 12px;
+}
+
+.Our-Expertise label {
+    font-weight: 700;
+}
+
+.Our-Expertise li::marker {
+    color: var(--hover-color);
+}
+
+.dgcargo-goods-bg {
+    background-color: var(--transparentblue);
+    width: fit-content;
+}
+
+.dgcargo-goods-bg-img {
+    position: relative;
+    right: 48px;
+}
+
+
+
+
+.dgcargo-goods-bg-img {
+    position: relative;
+    right: 10px;
+  }
+
+  .dgcargo-goods-cargo-bg-image-position {
+    position: absolute;
+    bottom: -9px;
+    padding: 0;
+  }
+
+  .dg-heading h1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 14px;
+    margin: 0;
+  }
+
+
+
+/* .testing-right {
+    border-bottom: 0px solid red;
+    border-top: 0px solid red;
+    border-left: 0px solid red;
+    border-right: 0px solid transparent;
+  } */
+
+@media (max-width: 925px) {
+    /* footer section */
+    .footer-section {
+        background: var(--footerbgcolor);
+        color: var(--primary-color);
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0px;
+    }
+
+    .footer-section .container .center-align ul {
+        padding: 0px;
+    }
+
+    .footerparagraphwidth {
+        width: 80%;
+        text-align: justify;
+        text-align-last: left;
+    }
+
+    /* track your shipment */
+
+    .trak-your-shipment {
+        height: 500px;
+    }
+
+    .track-your-shippment-baground {
+        background: linear-gradient(
+                to top,
+                white 30%,
+                rgba(255, 126, 95, 0) 30%
+            ),
+            url("../images/IMG\ 1660\ x\ 447.jpg") no-repeat center top; /* First layer covers full, second layer covers bottom half */
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .rowheight {
+        height: 500px;
+    }
+}
+
+@media (max-width: 1489px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 210px solid transparent;
+        border-top: 680px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+}
+
+@media (max-width: 1460px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 210px solid transparent;
+        border-top: 670px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 210px solid transparent;
+        border-top: 660px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+}
+
+@media (max-width: 1420px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 210px solid transparent;
+        border-top: 650px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .track-your-shippment-baground {
+        background: linear-gradient(
+                to top,
+                white 30%,
+                rgba(255, 126, 95, 0) 30%
+            ),
+            url("../images/IMG\ 1660\ x\ 447.jpg") no-repeat center top; /* First layer covers full, second layer covers bottom half */
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+    }
+
+    .rowheight {
+        height: 500px;
+    }
+}
+
+@media (max-width: 1407px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 650px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .gatway-postion {
+        position: absolute;
+        top: 30%;
+        left: 2%;
+    }
+
+    .Our-values-postion {
+        position: absolute;
+        top: 658px;
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 65px;
+        --paragraphsize: 17px;
+        --subparaHeading: 45px;
+        --subparagraph: 18px;
+    }
+}
+
+@media (max-width: 1390px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 640px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 200px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+}
+
+@media (max-width: 1360px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 630px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+}
+
+@media (max-width: 1340px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 620px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .navdivition {
+        display: block;
+        position: absolute;
+        top: 0px;
+        border-left: 0px solid transparent;
+        border-right: 80px solid transparent;
+        border-top: 150px solid white; /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 30%;
+    }
+}
+
+@media (max-width: 1300px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 610px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .videosdiv {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: fill;
+    }
+
+    .Our-values-postion {
+        position: absolute;
+        top: 600px;
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 65px;
+        --paragraphsize: 17px;
+        --subparaHeading: 40px;
+        --subparagraph: 18px;
+    }
+
+    .navdivition {
+        display: block;
+        position: absolute;
+        top: 0px;
+        border-left: 0px solid transparent;
+        border-right: 80px solid transparent;
+        border-top: 150px solid white; /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 30%;
+    }
+
+    .navimageposition {
+        position: absolute;
+        top: 20px;
+        left: 40px;
+    }
+}
+
+@media (max-width: 1270px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 600px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .Our-values-postion {
+        position: absolute;
+        top: 550px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 590px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+}
+
+@media (max-width: 1230px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 580px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 570px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 100px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 60px;
+        --paragraphsize: 17px;
+        --subparaHeading: 40px;
+        --subparagraph: 16px;
+    }
+
+    .Our-values-postion {
+        position: absolute;
+        top: 500px;
+    }
+
+    .special-Expertise-icon {
+        position: absolute;
+        top: -75px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 1180px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 560px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .navdivition {
+        display: block;
+        position: absolute;
+        top: 0px;
+        border-left: 0px solid transparent;
+        border-right: 70px solid transparent;
+        border-top: 150px solid white; /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 30%;
+    }
+
+    .navbarimg {
+        width: 216px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 550px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 60px;
+        --paragraphsize: 17px;
+        --subparaHeading: 35px;
+        --subparagraph: 16px;
+    }
+
+    .videosdiv {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        object-position: fill;
+    }
+}
+
+@media (max-width: 1120px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 540px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 530px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 55px;
+        --paragraphsize: 17px;
+        --subparaHeading: 35px;
+        --subparagraph: 14px;
+    }
+
+    .comprehensive-Freight-Solutions-content {
+        position: absolute;
+        top: -286px;
+        left: 100px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 520px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .videosdiv {
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        object-position: fill;
+    }
+}
+
+@media (max-width: 1050px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 510px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+}
+
+@media (max-width: 1030px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 500px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .navbarimg {
+        width: 200px;
+    }
+
+    .footer-section .container .logo-image img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+        width: 200px;
+    }
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 50px;
+        --paragraphsize: 17px;
+        --subparaHeading: 30px;
+        --subparagraph: 14px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 490px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 55%;
+    }
+
+    .gatway-postion {
+        position: absolute;
+        top: 30%;
+        left: 1%;
+    }
+
+    .Our-values-postion {
+        position: absolute;
+        top: 346px;
+    }
+
+    .nav-mobile {
+        display: block;
+    }
+
+    .navdivition {
+        display: none;
+        position: absolute;
+        top: 0px;
+        border-left: 0px solid transparent;
+        border-right: 100px solid transparent;
+        border-top: 150px solid white; /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 30%;
+    }
+
+    .nav-lapscreen {
+        display: none;
+    }
+
+    .navbarfontColorSize {
+        color: black;
+        font-size: 20px;
+        transition: color 0.3s ease, font-size 0.3s ease;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 990px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 480px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 59%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 20px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    .Fast-Ride-Shipping-l-l-c-flex {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .special-Expertise-icon {
+        position: absolute;
+        top: -56px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 980px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 470px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 59%;
+    }
+}
+
+@media (max-width: 946px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 460px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 59%;
+    }
+}
+
+@media (max-width: 910px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 450px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 59%;
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 50px;
+        --paragraphsize: 14px;
+        --subparaHeading: 30px;
+        --subparagraph: 14px;
+    }
+}
+
+@media (max-width: 890px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 440px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 59%;
+    }
+}
+
+@media (max-width: 870px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 430px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 59%;
+    }
+}
+
+@media (max-width: 850px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 420px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 60%;
+    }
+
+    .videosdiv {
+        width: 100%;
+        height: 430px;
+        object-fit: cover;
+        object-position: fill;
+    }
+}
+
+@media (max-width: 790px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 410px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 60%;
+    }
+}
+
+@media (max-width: 775px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 400px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 62%;
+    }
+    .gatway-postion {
+        position: absolute;
+        top: 30%;
+        left: 0;
+    }
+    .special-Expertise-icon {
+        position: absolute;
+        top: -46px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 750px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 390px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 62%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 240px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+    .project-cargo-movements-paragraph p {
+        font-size: var(--subparagraph);
+        text-align: justify;
+        text-align-last: left;
+        width: 100%;
+    }
+
+    .projects-icon-alignment {
+        display: block;
+    }
+}
+
+@media (max-width: 500px) {
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 25px;
+        --paragraphsize: 8px;
+        --subparaHeading: 30px;
+        --subparagraph: 15px;
+    }
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 280px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 80%;
+    }
+
+    .navbarimg {
+        width: 100px;
+    }
+
+    .footer-section .container .logo-image img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        -o-object-position: center;
+        object-position: center;
+        width: 170px;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 200px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    .Our-values-postion {
+        position: absolute;
+        top: 349px;
+    }
+
+    .Fast-Ride-Shipping-l-l-c {
+        padding: 775px 0px 100px 0px;
+    }
+
+    .videosdiv {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        object-position: fill;
+    }
+
+    .comprehensive-Freight-Solutions {
+        position: absolute;
+        top: -201px;
+        border-left: 0px solid transparent;
+        border-right: 134px solid transparent;
+        border-top: 0px solid transparent; /* Flip the triangle upwards */
+        border-bottom: 300px solid var(--transparentblue);
+        width: 90%;
+    }
+
+    .comprehensive-Freight-Solutions-content {
+        position: absolute;
+        top: -201px;
+        left: 30px;
+    }
+
+    .special-Expertise-icon {
+        position: absolute;
+        top: -36px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .projects-icon-alignment {
+        display: block;
+    }
+}
+
+@media (max-width: 490px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 270px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 70%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 200px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+}
+
+@media (max-width: 480px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 260px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 75%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 170px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    .videosdiv {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: fill;
+    }
+}
+
+@media (max-width: 460px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 250px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 75%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 170px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 22px;
+        --paragraphsize: 8px;
+        --subparaHeading: 27px;
+        --subparagraph: 15px;
+    }
+}
+
+@media (max-width: 440px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 240px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 75%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 200px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 160px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 22px;
+        --paragraphsize: 8px;
+        --subparaHeading: 27px;
+        --subparagraph: 13px;
+    }
+}
+
+@media (max-width: 420px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 233px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 75%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 120px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 20px;
+        --paragraphsize: 8px;
+        --subparaHeading: 27px;
+        --subparagraph: 13px;
+    }
+
+    .comprehensive-Freight-Solutions {
+        position: absolute;
+        top: -201px;
+        border-left: 0px solid transparent;
+        border-right: 134px solid transparent;
+        border-top: 0px solid transparent; /* Flip the triangle upwards */
+        border-bottom: 300px solid var(--transparentblue);
+        width: 90%;
+    }
+
+    .comprehensive-Freight-Solutions-content {
+        position: absolute;
+        top: -201px;
+        left: 30px;
+    }
+}
+
+@media (max-width: 410px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 225px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 75%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 100px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 18px;
+        --paragraphsize: 8px;
+        --subparaHeading: 27px;
+        --subparagraph: 13px;
+    }
+}
+
+@media (max-width: 390px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 223px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 80%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 100px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    :root {
+        --primary-color: #00568d;
+        --hover-color: #3ab54a;
+        --whatsapp-bg-color: #3ab54a;
+        --footerbgcolor: #a3d4ff;
+        --transparentblue: rgb(0, 86, 141, 0.5);
+        --mainheadingSize: 18px;
+        --paragraphsize: 6px;
+        --subparaHeading: 27px;
+        --subparagraph: 13px;
+    }
+
+    .gatway-postion {
+        position: absolute;
+        top: 34%;
+        left: 1%;
+    }
+
+    .special-Expertise-icon {
+        position: absolute;
+        top: -28px;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+@media (max-width: 384px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 215px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 80%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 100px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    .videosdiv {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        object-position: fill;
+    }
+
+    .comprehensive-Freight-Solutions {
+        position: absolute;
+        top: -201px;
+        border-left: 0px solid transparent;
+        border-right: 134px solid transparent;
+        border-top: 0px solid transparent; /* Flip the triangle upwards */
+        border-bottom: 300px solid var(--transparentblue);
+        width: 90%;
+    }
+
+    .comprehensive-Freight-Solutions-content {
+        position: absolute;
+        top: -201px;
+        left: 30px;
+    }
+}
+
+@media (max-width: 374px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 210px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 80%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 80px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+}
+
+@media (max-width: 358px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 200px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 80%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 46px; /* Adjust as needed */
+        top: 40px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    .Fast-Ride-Shipping-l-l-c {
+        padding: 800px 0px 100px 0px;
+    }
+
+    .videosdiv {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+        object-position: fill;
+    }
+    .comprehensive-Freight-Solutions {
+        position: absolute;
+        top: -201px;
+        border-left: 0px solid transparent;
+        border-right: 134px solid transparent;
+        border-top: 0px solid transparent; /* Flip the triangle upwards */
+        border-bottom: 300px solid var(--transparentblue);
+        width: 90%;
+    }
+
+    .comprehensive-Freight-Solutions-content {
+        position: absolute;
+        top: -201px;
+        left: 30px;
+    }
+}
+
+@media (max-width: 320px) {
+    .gatway {
+        position: absolute;
+        top: 0;
+        border-left: 0px solid transparent;
+        border-right: 200px solid transparent;
+        border-top: 200px solid var(--transparentblue); /* Flip the triangle upwards */
+        border-bottom: 0px solid orange;
+        width: 80%;
+    }
+
+    .google-icon {
+        position: absolute;
+        right: 46px; /* Adjust as needed */
+        top: 36px;
+        transform: translateY(-50%);
+        pointer-events: none; /* Ensures the icon doesn't block input clicks */
+    }
+
+    .Fast-Ride-Shipping-l-l-c {
+        padding: 855px 0px 100px 0px;
+    }
+}
+
+.google-icon {
+    width: 24px;
+    height: 24px;
+}
+.contact-info a,
+.social-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+    font-size: 14px;
+}
+
+.social-links a {
+    margin-right: 15px;
+}
+.navbarfontColorSize.active {
+    color: #3ab54a !important;
+    font-weight: bold;
+}
+.letsconnect {
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+
+.banner-container {
+    position: relative;
+    height: 100%;
+}
+
+.banner-container img {
+    position: absolute;
+    bottom: -18px;
+    padding: 0;
+}
+
+.content-overlay {
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+}
+
+.content-overlay h1 {
+    color: #4caf50;
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.content-overlay p {
+    color: white;
+    max-width: 800px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    /* background: rgba(0, 0, 0, 0.3); */
+    padding: 20px;
+}
+
+
+.contact-section {
+    padding: 30px;
+    background-color: #f8f9fa;
+}
+
+.projects-icons-size {
+    width: 50px;
+    height: 50px;
+}
+
+/* Connect us */
+.connect-contact-section {
+    padding: 30px;
+}
+.connectus h1 {
+    font-size: var(--mainheadingSize);
+    color: var(--whatsapp-bg-color);
+    margin: 0px;
+    font-weight: 600;
+}
+
+.connectus p {
+    font-size: var(--subparagraph);
+    color: white;
+    width: 60%;
+    text-align: justify;
+    text-align-last: left;
+}
+.connect-message-box {
+    background-color: #a3d4ff;
+    padding: 20px;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.connect-map-container {
+    margin-top: 20px;
+}
+
+.connect-social-icons a {
+    text-decoration: none;
+    color: var(--primary-color);
+    margin-left: 10px;
+}
+
+.connect-btn-submit {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+}
+
+.connect-btn-submit:hover {
+    background-color: #084298;
+}
+
+.connectfontColorSize {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s ease, font-size 0.3s ease;
+    font-weight: 500;
+}
+.connect-us h1 {
+    font-size: var(--subparaHeading);
+    color: var(--primary-color);
+}
+.connect-us p {
+    font-size: var(--subparagraph);
+}
+.connect-us a {
+    text-decoration: none;
+    font-size: var(--subparagraph);
+    color: black;
+}
+.connect-us i {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.connect-us-submit h3 {
+    font-family: "CustomFont2";
+    color: var(--primary-color);
+    margin-left: 42px;
+    margin-top: 10px;
+}
+.connect-us-form input {
+    height: 50px;
+    width: 90%;
+    margin-left: 16px;
+    border: none;
+    font-family: "CustomFont2";
+}
+.connect-us-form textarea {
+
+    width: 90%;
+    height:35%;
+    margin-left: 16px;
+    font-family: "CustomFont2";
+}

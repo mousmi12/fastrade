@@ -180,7 +180,7 @@
             <div class="special-Expertise-content position-relative">
                 <div class="container">
                     <div class="special-Expertise-heading">
-                        <h1 class="text-center">Special Expertise</h1>
+                        <h1 class="text-md-center text-start">Special Expertise</h1>
                     </div>
                     <div class="special-Expertise-paragraph">
                         <p>
@@ -384,33 +384,35 @@
             <div
                 class="col-md-6 col-12 tailored-Logistics-solutions-padding d-flex justify-content-center align-items-center">
                 <div class="col-10">
-                    <ul>
-                        <p class="pt-4">
-                            We recognize that no two shipments are the same. That’s why we
-                            offer personalized logistics services, including:
-                        </p>
-                        <li>
-                            <label>Door-to-door services:</label>
-                            For complete peace of mind, we handle every aspect of the
-                            shipment process, from collection to delivery, ensuring your
-                            goods reach their destination hassle-free.
-                        </li>
-                        <li>
-                            <label>Ship Spare Parts Movements:</label>
-                            Whether it’s a port-side delivery or an urgent shipment in transit, our team ensures accurate handling and timely transport of ship spare parts to keep vessels operational.
-                        </li>
-                        <li>
-                            <label>Transit Movements:</label> Whether it's transit clearance
-                            or transfer through free zones, our expert team streamlines the
-                            entire process
-                        </li>
-                        <!-- <li>
+                     <!-- change mobile design ul class -->
+            <ul class="ps-md-5 ps-0">
+              <p class="pt-4">
+                We recognize that no two shipments are the same. That’s why we
+                offer personalized logistics services, including:
+              </p>
+              <li>
+                <label>Door-to-door services:</label>
+                For complete peace of mind, we handle every aspect of the
+                shipment process, from collection to delivery, ensuring your
+                goods reach their destination hassle-free.
+              </li>
+              <li>
+                <label> Ship spare parts and AOG (Aircraft On Ground):</label>
+                When time is critical, Fastride is your go-to partner for fast,
+                efficient delivery of aircraft and ship parts.
+              </li>
+              <li>
+                <label>Transit Movements:</label> Whether it's transit clearance
+                or transfer through free zones, our expert team streamlines the
+                entire process
+              </li>
+              <!-- <li>
                   <label> Customer-Centric Approach:</label> We pride
                   ourselves on understanding the needs of our clients,
                   offering end-to-end support to ensure your goods reach
                   their destination safely and on time.
                 </li> -->
-                    </ul>
+            </ul>
                 </div>
             </div>
         </div>
