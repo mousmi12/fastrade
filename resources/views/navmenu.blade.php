@@ -120,6 +120,8 @@
 
 
  <!-- navmenu mobile change mobile design-->
+
+ <!-- navmenu mobile change mobile design-->
  <section class="bg-white col-12 position-fixed z-3 nav-mobile">
         <nav class="navbar navbar-expand-lg container-fluid">
           <div class="container-fluid">
@@ -148,44 +150,39 @@
               >
                 <li class="nav-item mobile-navbarfontColorSize">
                   <a
-                    class="nav-link mobile-navbarfontColorSize-navmenu {{ Request::is('/') ? 'active' : '' }}"
+                    class="nav-link mobile-navbarfontColorSize-navmenu  {{ Request::is('/') ? 'active' : '' }}"
                     aria-current="page"
-                    href="{{ url('/') }}"
+                     href="{{ url('/') }}"
                     >Home</a
                   >
                 </li>
                 <li class="nav-item mobile-navbarfontColorSize">
                   <a
-                    class="nav-link mobile-navbarfontColorSize-navmenu {{ Request::is('discoverus') ? 'active' : '' }}"
-                    href="{{ route('discoverus') }}">Discover us</a>
+                    class="nav-link mobile-navbarfontColorSize-navmenu  {{ Request::is('discoverus') ? 'active' : '' }}" href="{{ route('discoverus') }}">Discover us</a>
                 </li>
                 <li class="nav-item mobile-navbarfontColorSize">
                   <a
-                    class="nav-link mobile-navbarfontColorSize-navmenu {{ Request::is('services') ? 'active' : '' }}"
-                    href="{{ route('services') }}">Services</a>
-                                 </li>
-                <li class="nav-item mobile-navbarfontColorSize">
-                  <a
-                    class="nav-link mobile-navbarfontColorSize-navmenu {{ Request::is('dgcargo') ? 'active' : '' }}"
-                    href="{{ route('dgcargo') }}">DG Cargo</a>
+                    class="nav-link mobile-navbarfontColorSize-navmenu  {{ Request::is('services') ? 'active' : '' }}" href="{{ route('services') }}">Services</a>
                 </li>
                 <li class="nav-item mobile-navbarfontColorSize">
                   <a
-                    class="nav-link mobile-navbarfontColorSize-navmenu {{ Request::is('connectus') ? 'active' : '' }}"
-                    href="{{ route('connectus') }}">Let's connect</a>
+                    class="nav-link mobile-navbarfontColorSize-navmenu  {{ Request::is('dgcargo') ? 'active' : '' }}" href="{{ route('dgcargo') }}">DG Cargo</a>
+                </li>
+                <li class="nav-item mobile-navbarfontColorSize">
+                  <a
+                    class="nav-link mobile-navbarfontColorSize-navmenu  {{ Request::is('connectus') ? 'active' : '' }}" href="{{ route('connectus') }}">Let's connect</a>
                 </li>
                 <li
                   class="nav-item d-flex justify-content-around mobile-navbarfontColorSize-socialmedia-bg"
                 >
                   <a
                     class="nav-link mobile-navbarfontColorSize-socialmedia"
-                    href="https://www.facebook.com/share/1EnwG1qtYC/"
-
+                     href="https://www.facebook.com/share/1EnwG1qtYC/"
                     ><i class="bi bi-facebook"></i
                   ></a>
                   <a
                     class="nav-link mobile-navbarfontColorSize-socialmedia"
-                    href="https://www.instagram.com/fastrideshipping/"
+                   href="https://www.instagram.com/fastrideshipping/"
                     ><i class="bi bi-instagram"></i
                   ></a>
                   <a
@@ -233,7 +230,6 @@
           </div>
         </nav>
       </section>
-
 
 
 

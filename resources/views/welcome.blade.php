@@ -110,9 +110,7 @@
                     </div>
                     <div>
                       <p class="gatway-pargraph">
-                        Aliquam tincidunt turpis et ex fringilla, vitae eleifend
-                        tortor varius. Sed blandit tellus at ipsum elementum
-                        rhoncus
+                      Connecting the Middle East to global markets with precision and care. Fastride delivers excellence in every shipment.
                       </p>
                     </div>
                   </div>
@@ -141,8 +139,7 @@
                     </div>
                     <div>
                       <p class="gatway-pargraph">
-                        Nulla facilisi. Aenean vestibulum elit in ligula
-                        tristique, non ultricies nisi placerat.
+                      Offering fast and dependable shipping solutions to meet your business needs, Fastride guarantees a smooth and efficient transport process for all types of cargo.
                       </p>
                     </div>
                   </div>
@@ -171,8 +168,7 @@
                     </div>
                     <div>
                       <p class="gatway-pargraph">
-                        Phasellus convallis magna ac semper faucibus. Curabitur
-                        euismod nisl vel massa sagittis volutpat.
+                      Fastride links your business to international markets with reliable global shipping routes. Our expertise makes worldwide delivery seamless and secure.
                       </p>
                     </div>
                   </div>
@@ -182,6 +178,8 @@
           </div>
         </div>
       </section>
+
+
         <!-- why choose FASTRIDE -->
         <section class="why-choose">
             <div>
