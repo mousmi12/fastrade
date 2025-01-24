@@ -3252,15 +3252,7 @@
       text-align-last: left;
     }
   }
-
-
-.navbarfontColorSize.active {
+  .navbarfontColorSize.active {
     color: #3ab54a !important;
     font-weight: bold;
 }
-
-.mobile-navbarfontColorSize-navmenu.active{
-    color: #3ab54a !important;
-    font-weight: bold;
-}
-/*......................*/
