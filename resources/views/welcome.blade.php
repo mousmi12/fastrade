@@ -190,14 +190,14 @@
                                 src="{{asset('assets/images/IMG 910 x 1285.png')}}"
                                 width="100%"
                                 alt=""
- class="hidden-up hover-scale"
+
                                 srcset="" />
                         </div>
                     </div>
                     <div
                         class="col-md-6 col-12 cols d-flex justify-content-center align-items-center">
                         <div class="col-10">
-                            <div class="why-choose-heading hidden">
+                            <div class="why-choose-heading ">
                                 <h1>Why Choose</h1>
                                 <h1>Fastride Shipping LLC?</h1>
                             </div>
@@ -243,14 +243,14 @@
                     src="{{asset('assets/images/IMG 1920 x 1280.jpg')}}"
                     width="100%"
                     alt=""
-                    class="hidden-up"
+
                     srcset="" />
             </div>
             <div class="d-flex justify-content-center">
                 <div class="container position-absolute top-0">
                     <div class="Our-Key-Destinations-heading pt-5">
                         <div>
-                            <h1 class="text-md-center text-start hidden ">Our Key Destinations and Reach</h1>
+                            <h1 class="text-md-center text-start  ">Our Key Destinations and Reach</h1>
                         </div>
                         <div class="d-flex justify-content-center align-items-center ">
                             <p class="Our-Key-Destinations-paragraph hidden ">
@@ -274,7 +274,7 @@
                                 <div
                                     class="col-md-5 col-12 cols d-flex justify-content-center align-items-center">
                                     <div class="col-10">
-                                        <div class="why-choose-heading hidden" >
+                                        <div class="why-choose-heading" >
                                             <h1>Our Values</h1>
                                         </div>
                                         <div>
@@ -461,13 +461,13 @@
         </section>
 
         <!-- projects We’ve Complete -->
-        <section>
+        <!-- <section>
             <div class="container mt-5 mb-5">
                 <div >
                     <div class="col-12 pt-3 pb-3 project-heading">
                         <div>
                             <h1 class="text-md-center text-start">Connecting Continents, Creating Opportunities</h1>
-                            <!-- <h1 class="text-center">Our story</h1> -->
+
                         </div>
                     </div>
                     <div class="row py-5 d-flex justify-content-between">
@@ -491,186 +491,232 @@
                                         width="100%"
                                         class="rounded-5" />
                         </div>
-                    </div>
-
-                    <!-- <div
-                        class="col-12 border-2 border-top border-bottom pt-5 pb-5 icons-heading">
-                        <div class="row">
-                            <div
-                                class="col-md-3 col-12 cols d-flex justify-content-center align-items-center border-2 border-start border-end">
-                                <div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-6 cols">
-                                            <h1 class="d-flex">
-                                                <label data-target="35700" class="counter">35,700</label>
-                                                +
-                                            </h1>
-                                        </div>
-                                        <div
-                                            class="col-md-6 col-6 cols d-flex justify-content-center align-items-center">
-                                            <i
-                                                class="bi bi-box-seam-fill projects-icons-size"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h4>Deliveries Fulfilled</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="col-md-3 col-12 cols d-flex justify-content-center align-items-center border-2 border-start border-end">
-                                <div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-6 cols">
-                                            <h1 class="d-flex">
-                                                <label data-target="590" class="counter">590</label>
-                                                +
-                                            </h1>
-                                        </div>
-                                        <div
-                                            class="col-md-6 col-6 cols d-flex justify-content-center align-items-center">
-                                            <i
-                                                class="bi bi-airplane-engines-fill projects-icons-size"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h4>Airborne Missions Supported</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div
-                                class="col-md-3 col-12 cols d-flex justify-content-center align-items-center border-2 border-start border-end">
-                                <div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-6 cols">
-                                            <h1 class="d-flex">
-                                                <label data-target="27500" class="counter">27,500</label>
-                                                +
-                                            </h1>
-                                        </div>
-                                        <div
-                                            class="col-md-6 col-6 cols d-flex justify-content-center align-items-center">
-                                            <i
-                                                class="bi bi-truck-flatbed projects-icons-size"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h4>Dangerous Goods Clearances</h4>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div
-                                class="col-md-3 col-12 cols d-flex justify-content-center align-items-center">
-                                <div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-6 cols">
-                                            <h1 class="d-flex">
-                                                <label data-target="1000" class="counter">1,000</label>
-                                                +
-                                            </h1>
-                                        </div>
-                                        <div
-                                            class="col-md-6 col-6 cols d-flex justify-content-center align-items-center">
-                                            <i class="bi bi-truck projects-icons-size"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h4>Vehicle Deliveries Recorded</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div> -->
-                    <div
-                        class="col-12 border-2 border-top border-bottom pt-5 pb-5 icons-heading">
-                        <div class="row">
-                            <div class="col-md-3 col-12 cols projects-icon-alignment">
-                                <div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-6 cols">
-                                            <h1 class="d-flex">
-                                                <label data-target="35700" class="counter">35,700</label>
-                                                +
-                                            </h1>
-                                        </div>
-                                        <div
-                                            class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">
-                                            <!-- <i class="bi bi-box-seam-fill projects-icons-size"></i> -->
-                                            <img src="{{ asset('assets/images/shipment completed.svg') }}" alt="shipment completed" class="projects-icons-size" />
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h4>Shipments completed</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div
-                                class="col-md-3 col-12 projects-icon-alignment cols border-2 border-start">
-                                <div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-6 cols">
-                                            <h1 class="d-flex">
-                                                <label data-target="27500" class="counter">27,500</label>
-                                                +
-                                            </h1>
-                                        </div>
-                                        <div
-                                            class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">
-                                            <!-- <i class="bi bi-truck-flatbed projects-icons-size"></i> -->
-                                            <img src="{{ asset('assets/images/Dg.svg') }}" alt="Dangerous Goods Icon" class="projects-icons-size" />
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h4>Dangerous Goods Clearances</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div
-                                class="col-md-3 col-12 cols projects-icon-alignment border-2 border-start border-end">
-                                <div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-6 cols">
-                                            <h1 class="d-flex">
-                                                <label data-target="590" class="counter">590</label>
-                                                +
-                                            </h1>
-                                        </div>
-                                        <div
-                                            class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">
-                                            <!-- <i
-                                                class="bi bi-airplane-engines-fill projects-icons-size"></i> -->
-                                                <img src="{{ asset('assets/images/aircraft engine.svg') }}" alt="aircraft engine" class="projects-icons-size" />
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h4>Aircraft Engines clearance</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-12 cols projects-icon-alignment">
-                                <div>
-                                    <div class="row">
-                                        <div class="col-md-6 col-6 cols">
-                                            <h1 class="d-flex">
-                                                <label data-target="1000" class="counter">1,000</label>
-                                                +
-                                            </h1>
-                                        </div>
-                                        <div
-                                            class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">
-                                            <!-- <i class="bi bi-truck projects-icons-size"></i> -->
-                                            <img src="{{ asset('assets/images/vehicle shipment.svg') }}" alt="vehicle shipment" class="projects-icons-size" />
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <h4>Vehicle Shipments documented</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
+                    <section>
+        <div class="container mt-5 mb-5">
+          <!--change mobile design only this class name remove row-->
+          <div>
+            <div class="col-12 pt-3 pb-3 project-heading">
+              <div>
+                <!--change mobile design change h1 class name -->
+                <h1 class="text-md-center text-start">
+                Connecting Continents, Creating Opportunities
+                </h1>
+                <!-- <h1 class="text-center">Our story</h1> -->
+              </div>
+            </div>
+            <div class="row py-md-5 py-0 d-flex justify-content-between">
+              <div class="col-md-5 col-12 cols">
+                <div>
+                  <div>
+                    <p class="projects-paragraphalignment">
+                    Our global logistics solutions go beyond delivering products - they're about enabling progress. By combining expertise with technology, we provide tailored freight solutions that keep your world moving. Our dedicated approach to every shipment, from air and ground to specialized deliveries, ensures we meet your needs with care and precision. Together, we ensure your business keeps running smoothly. Here's a glimpse of the impact we've made:
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-md-5 col-12 cols d-flex justify-content-center align-items-center"
+              >
+                <img
+                  src="{{asset('assets/images/722 x 454.jpg')}}"
+                  width="100%"
+                  class="rounded-5"
+                  alt=""
+                  srcset=""
+                />
+              </div>
+            </div>
+
+                    <!--<div-->
+                    <!--    class="col-12 border-2 border-top border-bottom pt-5 pb-5 icons-heading">-->
+                    <!--    <div class="row">-->
+                    <!--        <div class="col-md-3 col-12 cols projects-icon-alignment">-->
+                    <!--            <div>-->
+                    <!--                <div class="row">-->
+                    <!--                    <div class="col-md-6 col-6 cols">-->
+                    <!--                        <h1 class="d-flex">-->
+                    <!--                            <label data-target="35700" class="counter">35,700</label>-->
+                    <!--                            +-->
+                    <!--                        </h1>-->
+                    <!--                    </div>-->
+                    <!--                    <div-->
+                    <!--                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">-->
+
+                    <!--                        <img src="{{ asset('assets/images/shipment completed.svg') }}" alt="shipment completed" class="projects-icons-size" />-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+                    <!--                <div>-->
+                    <!--                    <h4>Shipments completed</h4>-->
+                    <!--                </div>-->
+                    <!--            </div>-->
+                    <!--        </div>-->
+                    <!--        <div-->
+                    <!--            class="col-md-3 col-12 projects-icon-alignment cols border-2 border-start">-->
+                    <!--            <div>-->
+                    <!--                <div class="row">-->
+                    <!--                    <div class="col-md-6 col-6 cols">-->
+                    <!--                        <h1 class="d-flex">-->
+                    <!--                            <label data-target="27500" class="counter">27,500</label>-->
+                    <!--                            +-->
+                    <!--                        </h1>-->
+                    <!--                    </div>-->
+                    <!--                    <div-->
+                    <!--                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">-->
+
+                    <!--                        <img src="{{ asset('assets/images/Dg.svg') }}" alt="Dangerous Goods Icon" class="projects-icons-size" />-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+                    <!--                <div>-->
+                    <!--                    <h4>Dangerous Goods Clearances</h4>-->
+                    <!--                </div>-->
+                    <!--            </div>-->
+                    <!--        </div>-->
+                    <!--        <div-->
+                    <!--            class="col-md-3 col-12 cols projects-icon-alignment border-2 border-start border-end">-->
+                    <!--            <div>-->
+                    <!--                <div class="row">-->
+                    <!--                    <div class="col-md-6 col-6 cols">-->
+                    <!--                        <h1 class="d-flex">-->
+                    <!--                            <label data-target="590" class="counter">590</label>-->
+                    <!--                            +-->
+                    <!--                        </h1>-->
+                    <!--                    </div>-->
+                    <!--                    <div-->
+                    <!--                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">-->
+
+                    <!--                            <img src="{{ asset('assets/images/aircraft engine.svg') }}" alt="aircraft engine" class="projects-icons-size" />-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+                    <!--                <div>-->
+                    <!--                    <h4>Aircraft Engines clearance</h4>-->
+                    <!--                </div>-->
+                    <!--            </div>-->
+                    <!--        </div>-->
+                    <!--        <div class="col-md-3 col-12 cols projects-icon-alignment">-->
+                    <!--            <div>-->
+                    <!--                <div class="row">-->
+                    <!--                    <div class="col-md-6 col-6 cols">-->
+                    <!--                        <h1 class="d-flex">-->
+                    <!--                            <label data-target="1000" class="counter">1,000</label>-->
+                    <!--                            +-->
+                    <!--                        </h1>-->
+                    <!--                    </div>-->
+                    <!--                    <div-->
+                    <!--                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center">-->
+
+                    <!--                        <img src="{{ asset('assets/images/vehicle shipment.svg') }}" alt="vehicle shipment" class="projects-icons-size" />-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+                    <!--                <div>-->
+                    <!--                    <h4>Vehicle Shipments documented</h4>-->
+                    <!--                </div>-->
+                    <!--            </div>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+
+                       <!-- iconssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
+          <div
+              class="col-12 border-2 border-top border-bottom pt-5 pb-5 icons-heading"
+            >
+              <div class="row">
+                <div class="col-md-3 col-6 cols projects-icon-alignment py-1">
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6 col-6 cols">
+                        <h1 class="d-flex">
+                          <label data-target="35700" class="counter"
+                            >35,700</label
+                          >
+                          +
+                        </h1>
+                      </div>
+                      <div
+                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center"
+                      >
+                      <img src="{{ asset('assets/images/shipment completed.svg') }}" alt="shipment completed" class="projects-icons-size" />
+                      </div>
                     </div>
+                    <div>
+                      <h4>Shipments completed</h4>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 col-6 projects-icon-alignment cols border-2 border-start py-1"
+                >
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6 col-6 cols">
+                        <h1 class="d-flex">
+                          <label data-target="27500" class="counter"
+                            >27,500</label
+                          >
+                          +
+                        </h1>
+                      </div>
+                      <div
+                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center"
+                      >
+                      <img src="{{ asset('assets/images/Dg.svg') }}" alt="Dangerous Goods Icon" class="projects-icons-size" />
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Dangerous Goods Clearances</h4>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 col-6 cols projects-icon-alignment border-2 border-start border-end py-1 border-top-image"
+                >
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6 col-6 cols">
+                        <h1 class="d-flex">
+                          <label data-target="590" class="counter">590</label>
+                          +
+                        </h1>
+                      </div>
+                      <div
+                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center"
+                      >
+                      <img src="{{ asset('assets/images/aircraft engine.svg') }}" alt="aircraft engine" class="projects-icons-size" />
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Aircraft Engines clearance</h4>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-md-3 col-6 cols projects-icon-alignment py-1 border-top-image"
+                >
+                  <div>
+                    <div class="row">
+                      <div class="col-md-6 col-6 cols">
+                        <h1 class="d-flex">
+                          <label data-target="1000" class="counter"
+                            >1,000</label
+                          >
+                          +
+                        </h1>
+                      </div>
+                      <div
+                        class="col-md-6 col-6 cols d-flex justify-content-end align-items-center"
+                      >
+                      <img src="{{ asset('assets/images/vehicle shipment.svg') }}" alt="vehicle shipment" class="projects-icons-size" />
+                      </div>
+                    </div>
+                    <div>
+                      <h4>Vehicle Shipments documented</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- iconsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss -->
                 </div>
             </div>
         </section>

@@ -68,13 +68,18 @@
     </section>
 
     <!-- What We Handle -->
+
     <section class="What-We-Handle">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <h1 class="text-md-center text-start What-We-Handle-heading">What We Handle</h1>
+            <!-- change mobile design add text-md-center text-start-->
+            <h1 class="text-md-center text-start What-We-Handle-heading">
+              What We Handle
+            </h1>
           </div>
-          <div class="col-md-3 col-12">
+          <!-- change mobile design div class name col-md-3 col-6 -->
+          <div class="col-md-3 col-6">
             <div class="d-flex justify-content-center align-items-center">
               <img
                 src="{{asset('assets/images/DG-cargo/hazard.svg')}}"
@@ -85,12 +90,14 @@
             </div>
             <div class="What-We-Handle-img-p">
               <p>
-                Hazardous chemicals and materials (flammable, corrosive, or
-                reactive substances)
+              Hazardous chemicals and materials (flammable, corrosive, or
+              reactive substances)
               </p>
             </div>
           </div>
-          <div class="col-md-3 col-12 border-white border-end border-start border-sm-bottom">
+          <div
+            class="col-md-3 col-6 border-white border-end border-start border-sm-bottom"
+          >
             <div class="d-flex justify-content-center align-items-center">
               <img
                 src="{{asset('assets/images/DG-cargo/industrial machinery.svg')}}"
@@ -101,11 +108,12 @@
             </div>
             <div class="What-We-Handle-img-p">
               <p>
-                Industrial machinery and equipment requiring special permits.
+              Industrial machinery and equipment requiring special permits.
               </p>
             </div>
           </div>
-          <div class="col-md-3 col-12 border-white border-end border-sm-top">
+          <!-- <div class="col-md-12 border-white border-start"></div> -->
+          <div class="col-md-3 col-6 border-white border-end border-sm-top">
             <div class="d-flex justify-content-center align-items-center">
               <img
                 src="{{asset('assets/images/DG-cargo/engine.svg')}}"
@@ -118,7 +126,7 @@
               <p>Aircraft parts and engine</p>
             </div>
           </div>
-          <div class="col-md-3 col-12">
+          <div class="col-md-3 col-6">
             <div class="d-flex justify-content-center align-items-center">
               <img
                 src="{{asset('assets/images/DG-cargo/gases.svg')}}"
@@ -137,6 +145,7 @@
         <div class="container Perfumes">
           <div class="row">
             <div class="col-md-12">
+              <!-- change mobile design div class -->
               <h1 class="text-md-center text-start What-We-Handle-heading">
                 Perfumes and Fragrances
               </h1>
@@ -154,7 +163,7 @@
               </div>
               <div class="col-md-6 col-12">
                 <p>
-                  Fastride specializes in the seamless, safe, and compliant
+                Fastride specializes in the seamless, safe, and compliant
                   movement of perfumes and fragrances worldwide. Our services
                   cover both the procurement and export of perfumes. For some
                   clients, we coordinate directly with perfume manufacturers,
@@ -169,30 +178,13 @@
               </div>
             </div>
             <!-- change mobile design @ copy end div ^-->
-            <!-- <div class="col-md-6 col-12">
-              <div class="d-flex justify-content-center align-items-center">
-                <img src="{{asset('assets/images/DG-cargo/722 x 454.jpg')}}" alt="" srcset="" />
-              </div>
-            </div> -->
-            <!-- <div class="col-md-6 col-12">
-              <p>
-                Fastride specializes in the seamless, safe, and compliant
-                movement of perfumes and fragrances worldwide. Our services
-                cover both the procurement and export of perfumes. For some
-                clients, we coordinate directly with perfume manufacturers,
-                handling the complete process of purchasing and shipping the
-                goods internationally. For other clients, who source their
-                perfumes independently, Fastride focuses solely on the safe
-                export of their products. Regardless of the process, we ensure
-                every shipment adheres to the highest safety, compliance, and
-                regulatory standards, handling perfumes with precision and care.
-              </p>
-            </div> -->
           </div>
         </div>
         <div class="img-Perfumes-shaps img-Perfumes-postion"></div>
       </div>
     </section>
+
+
 
     <!-- Our Expertise -->
     <section class="Our-Expertise position-relative pb-md-0 pb-5">
